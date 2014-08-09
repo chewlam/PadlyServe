@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ../padly-server
+../bin/activator ui
