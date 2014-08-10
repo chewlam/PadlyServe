@@ -1,1 +1,2420 @@
-[{"min_cooldown":10,"effect":"Do damage to all enemies equal to 10% of their current HP, ignoring element and defense.","max_cooldown":10,"name":"\u3044\u3058\u308f\u308b"},{"min_cooldown":15,"effect":"Do damage to all enemies equal to 25% of their current HP, ignoring element and defense.","max_cooldown":25,"name":"\u30c7\u30b9\u30dc\u30fc\u30eb"},{"min_cooldown":7,"effect":"Recover HP equal to 7x the user's RCV.Reduce all binds by 2 rounds.","max_cooldown":11,"name":"\u30cf\u30a4\u30d2\u30fc\u30eb"},{"min_cooldown":7,"effect":"All Heart Orbs become Poison Orbs. Also, Attacks from Dragon type monsters are 2x stronger for 1 turn.","max_cooldown":12,"name":"\u30d0\u30fc\u30b5\u30fc\u30af"},{"min_cooldown":6,"effect":"Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.","max_cooldown":11,"name":"\u30de\u30c3\u30cf\u30ad\u30c3\u30af"},{"min_cooldown":7,"effect":"For 6 turns, all damage is reduced by 30%.","max_cooldown":12,"name":"\u3075\u3093\u3070\u308b\u30cb\u30e3\uff01"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":16,"name":"\u30b0\u30e9\u30f3\u30c9\u30cf\u30a6\u30eb"},{"min_cooldown":10,"effect":"Freely move orbs for 5 seconds without triggering matches.","max_cooldown":17,"name":"\u30b5\u30a4\u30b3\u30ad\u30cd\u30b7\u30b9"},{"min_cooldown":12,"effect":"Attacks from Wood and Light type monsters are 1.5x stronger for 1 turn.","max_cooldown":17,"name":"\u30b9\u30ad\u3042\u308a\u30cb\u30e3\uff01"},{"min_cooldown":20,"effect":"Deal random Light type damage equal to 1-50x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"\u30c9\u30c9\u30f3\u304c\u30c9\u30f3\uff01"},{"min_cooldown":10,"effect":"All Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%. Also, for 2 turns, all damage is reduced by 35%.","max_cooldown":15,"name":"\u30d6\u30e9\u30c3\u30c9\u30cf\u30a6\u30eb"},{"min_cooldown":10,"effect":"Deal random Fire type damage equal to 1-100x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"\u30d6\u30ec\u30a4\u30ba\u30d6\u30ec\u30b9"},{"min_cooldown":10,"effect":"Do damage equal to 30x user's ATK to a single enemy.Also, Attacks from Healer type monsters are 2x stronger for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":14,"name":"\u30cd\u30d3\u30e5\u30e9\u30c1\u30a7\u30fc\u30f3"},{"min_cooldown":13,"effect":"Deal Fire type damage equal to 20x user's ATK to a single enemy and heals for 50% of damage done. Affected by enemy element and defense.","max_cooldown":18,"name":"\u30df\u30e9\u30fc\u30b8\u30e5\u30d5\u30ec\u30a2"},{"min_cooldown":10,"effect":"Do damage equal to 30x user's ATK to a single enemy. Also, All Poison Orbs become Heart Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":17,"name":"\u30df\u30eb\u30ad\u30fc\u30ad\u30e3\u30ce\u30f3"},{"min_cooldown":8,"effect":"Do damage equal to 4x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":12,"name":"\u3050\u3093\u3050\u306b\u30fc\u308b\u30cb\u30e3\uff01"},{"min_cooldown":8,"effect":"For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":15,"name":"\u30af\u30e9\u30c3\u30b7\u30e3\u30fc\u30dc\u30fc\u30eb"},{"min_cooldown":7,"effect":"Matched Heart Orbs are 1.2x stronger for 6 turns.","max_cooldown":12,"name":"\u30b5\u30dd\u30fc\u30c8\u3059\u308b\u30cb\u30e3\uff01"},{"min_cooldown":10,"effect":"Do damage equal to 30x user's ATK to a single enemy.Also, Attacks from Balanced type monsters are 2x stronger for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":14,"name":"\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u30c0\u30b9\u30c8"},{"min_cooldown":5,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":20,"name":"\u30d6\u30ed\u30fc\u30cb\u30f3\u30b0\u30b7\u30d5\u30c8"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":16,"name":"\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30cf\u30a6\u30eb"},{"min_cooldown":9,"effect":"All Heart Orbs become Fire Orbs. All Wood Orbs become Fire Orbs.","max_cooldown":16,"name":"\u30a6\u30eb\u30c8\u30e9\u30d2\u30fc\u30c8\u30a2\u30c3\u30d7"},{"min_cooldown":10,"effect":"Do damage equal to 80x user's ATK to a single enemy. Also, All Fire Orbs become Dark Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":14,"name":"\u30d5\u30a1\u30a4\u30ca\u30eb\u30d5\u30e9\u30c3\u30b7\u30e5"},{"min_cooldown":15,"effect":"All Orbs become Heart/Light/Dark Orbs.","max_cooldown":20,"name":"\u30e9\u30b9\u30c8\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8"},{"min_cooldown":13,"effect":"Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":20,"name":"\u30ea\u30af\u30fc\u30e0\u2026\u30a6\u30eb\u30c8\u30e9\u2026"},{"min_cooldown":18,"effect":"Freely move orbs for 12 seconds without triggering matches.","max_cooldown":28,"name":"\u30a2\u30ca\u30b6\u30fc\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3"},{"min_cooldown":8,"effect":"Attacks from Attacker type monsters are 2x stronger for 1 turn.","max_cooldown":12,"name":"100 Victories in 100 Battles"},{"min_cooldown":7,"effect":"For 2 turns, all damage is reduced by 35%. Also, deal Fire type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":17,"name":"Alchemical Forging"},{"min_cooldown":7,"effect":"Attacks from Attacker type monsters are 1.5x stronger for 1 turn.","max_cooldown":12,"name":"All right, understood!"},{"min_cooldown":6,"effect":"Attacks from Balanced type monsters are 1.5x stronger for 1 turn.","max_cooldown":10,"name":"Apple Power!"},{"min_cooldown":10,"effect":"Deal Water type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.","max_cooldown":20,"name":"Aqua Seed Breath"},{"min_cooldown":10,"effect":"For 5 turns, defense of all enemies is reduced to 25%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":17,"name":"Armor Break"},{"min_cooldown":12,"effect":"Attacks from Attacker type monsters are 3x stronger for 1 turn.","max_cooldown":17,"name":"Attack Enhancement"},{"min_cooldown":5,"effect":"All Heart Orbs become Dark Orbs.","max_cooldown":11,"name":"Attack Stance - Dark"},{"min_cooldown":5,"effect":"All Heart Orbs become Fire Orbs.","max_cooldown":11,"name":"Attack Stance - Fire"},{"min_cooldown":5,"effect":"All Heart Orbs become Light Orbs.","max_cooldown":11,"name":"Attack Stance - Light"},{"min_cooldown":5,"effect":"All Heart Orbs become Water Orbs.","max_cooldown":11,"name":"Attack Stance - Water"},{"min_cooldown":5,"effect":"All Heart Orbs become Wood Orbs.","max_cooldown":11,"name":"Attack Stance - Wood"},{"min_cooldown":15,"effect":"All Orbs become Wood/Light Orbs.","max_cooldown":20,"name":"Aubade Gaia"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 30%. Also, deal Water type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":18,"name":"Azure Sea Dragon Broadside"},{"min_cooldown":15,"effect":"Poison all enemies. Poisoned enemies lose HP equal to 2x\u00a0the user's ATK each turn, ignoring element and defense.","max_cooldown":20,"name":"Bad Breath"},{"min_cooldown":12,"effect":"Attacks from Balanced type monsters are 3x stronger for 1 turn.","max_cooldown":17,"name":"Balanced Enhancement"},{"min_cooldown":12,"effect":"Matched Dark Orbs are 2x stronger for 1 turn.","max_cooldown":15,"name":"Batwing"},{"min_cooldown":11,"effect":"Attacks from God type monsters are 1.5x stronger for 1 turn.","max_cooldown":11,"name":"BEAMS\u30d3\u30fc\u30e0"},{"min_cooldown":3,"effect":"Attacks from Balanced type monsters are 1.2x stronger for 6 turns.","max_cooldown":6,"name":"Birdarangs"},{"min_cooldown":15,"effect":"Deal 30000 Fire type damage to all enemies. Affected by enemy element and defense. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":20,"name":"Blast Cannon"},{"min_cooldown":4,"effect":"Deal 25000 Fire type damage to all enemies. Affected by enemy element and defense.","max_cooldown":9,"name":"Blaze Ball"},{"min_cooldown":15,"effect":"For 3 turns, all Wood damage is nullified.","max_cooldown":20,"name":"Blazing Field"},{"min_cooldown":8,"effect":"Deal 40000 Water type damage to all enemies. Affected by enemy element and defense.","max_cooldown":13,"name":"Blizzaga"},{"min_cooldown":10,"effect":"Deal 20000 Water type damage to all enemies. Affected by enemy element and defense. Also, all Light Orbs become Water Orbs.","max_cooldown":15,"name":"Blizzard Ball"},{"min_cooldown":10,"effect":"Matched Water Orbs are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"Blizzard Breath"},{"min_cooldown":15,"effect":"Deal 30000 Water type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":20,"name":"Blizzard Cannon"},{"min_cooldown":8,"effect":"All Fire Orbs become Heart Orbs. Recover 3000 HP.","max_cooldown":13,"name":"Blueberry Shower"},{"min_cooldown":10,"effect":"Do damage to all enemies equal to 20% of their current HP, ignoring element and defense.","max_cooldown":15,"name":"Boisterous Dance"},{"min_cooldown":5,"effect":"For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 10x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":30,"name":"Bomb"},{"min_cooldown":7,"effect":"Matched Wood Orbs are 1.5x stronger for 1 turn.","max_cooldown":12,"name":"Boost"},{"min_cooldown":8,"effect":"Attacks from God type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"Breath of Creation"},{"min_cooldown":10,"effect":"All Light and Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Light and Dark type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Breath of the Demon God"},{"min_cooldown":6,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":16,"name":"Burning Shift"},{"min_cooldown":15,"effect":"For 2 turns, defense of all enemies is reduced to 25%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 50x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":30,"name":"Burst Bomb"},{"min_cooldown":15,"effect":"Do damage to all enemies equal to 15% of their current HP, ignoring element and defense.","max_cooldown":25,"name":"Butcher Knife"},{"min_cooldown":10,"effect":"Delay all enemies by 1 turn. Also, All Water Orbs become Fire Orbs.","max_cooldown":14,"name":"Carving One's Own Path"},{"min_cooldown":15,"effect":"Freely move orbs for 10 seconds without triggering matches.","max_cooldown":20,"name":"Change the World"},{"min_cooldown":10,"effect":"Deal 3000 Dark type damage to all enemies. Affected by enemy element and defense.","max_cooldown":25,"name":"Chaos Ball"},{"min_cooldown":10,"effect":"Deal Dark type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Chaos Breath"},{"min_cooldown":6,"effect":"Attacks from Fire and Water type monsters are 1.3x stronger for 5 turns.","max_cooldown":15,"name":"Charge!!"},{"min_cooldown":15,"effect":"Deal Light type damage equal to 40x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":15,"name":"Choco Attack"},{"min_cooldown":15,"effect":"Recover HP equal to 15x the user's RCV.","max_cooldown":15,"name":"Choco Cure"},{"min_cooldown":8,"effect":"For 1 turn, all damage is reduced by 50%.","max_cooldown":8,"name":"Choco Guard"},{"min_cooldown":10,"effect":"Deal random Fire type damage equal to 10-100x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Choco Meteor"},{"min_cooldown":10,"effect":"All Water and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Water and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Clear Water Star Astrology"},{"min_cooldown":5,"effect":"Deal 1000 Water type damage to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Cold Ball"},{"min_cooldown":5,"effect":"Deal Water type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Cold Breath"},{"min_cooldown":10,"effect":"All Water and Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Water and Wood type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Cold Wave"},{"min_cooldown":15,"effect":"Deal Fire type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":30,"name":"Crimson Bomb"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 30%. Also, deal Fire type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":18,"name":"Crimson Sea Dragon Broadside"},{"min_cooldown":10,"effect":"Do 15000 set damage to a single enemy, ignoring element and defense.","max_cooldown":20,"name":"Critical Rejection"},{"min_cooldown":10,"effect":"Recover HP equal to 10x the user's RCV.Reduce all binds by 3 rounds.","max_cooldown":20,"name":"Cure"},{"min_cooldown":4,"effect":"Deal 25000 Dark type damage to all enemies. Affected by enemy element and defense.","max_cooldown":9,"name":"Curse Ball"},{"min_cooldown":5,"effect":"Deal Dark type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Curse Breath"},{"min_cooldown":10,"effect":"For 5 rounds, counter all damage with a Dark type attack of 3x damage taken. Affected by enemy element and defense. Also, all Wood Orbs become Dark Orbs.","max_cooldown":20,"name":"Curse of the Darkness"},{"min_cooldown":10,"effect":"For 5 rounds, counter all damage with a Fire type attack of 3x damage taken. Affected by enemy element and defense. Also, all Wood Orbs become Fire Orbs.","max_cooldown":20,"name":"Curse of the Flame"},{"min_cooldown":10,"effect":"For 5 rounds, counter all damage with a Water type attack of 3x damage taken. Affected by enemy element and defense. Also, all Fire Orbs become Water Orbs.","max_cooldown":20,"name":"Curse of the Ice"},{"min_cooldown":10,"effect":"For 5 rounds, counter all damage with a Light type attack of 3x damage taken. Affected by enemy element and defense. Also, all Water Orbs become Light Orbs.","max_cooldown":20,"name":"Curse of the Lightning"},{"min_cooldown":10,"effect":"For 5 rounds, counter all damage with a Wood type attack of 3x damage taken. Affected by enemy element and defense. Also, all Fire Orbs become Wood Orbs.","max_cooldown":20,"name":"Curse of the Tree"},{"min_cooldown":6,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":18,"name":"Dance of the Great Tengu"},{"min_cooldown":5,"effect":"Deal 1000 Dark type damage to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Dark Ball"},{"min_cooldown":12,"effect":"Do damage to all enemies equal to 20% of their current HP, ignoring element and defense.","max_cooldown":22,"name":"Dark Blaster"},{"min_cooldown":5,"effect":"Deal Dark type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Dark Breath"},{"min_cooldown":9,"effect":"Matched Dark Orbs are 1.5x stronger for 3 turns.","max_cooldown":17,"name":"Dark Enhancement"},{"min_cooldown":13,"effect":"Deal Dark type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Dark Gift"},{"min_cooldown":8,"effect":"All Light Orbs become Dark Orbs. All Heart Orbs become Light Orbs.","max_cooldown":13,"name":"Dark&Light Orbs Change"},{"min_cooldown":5,"effect":"All Light Orbs become Dark Orbs.","max_cooldown":9,"name":"Dark Orb Change"},{"min_cooldown":10,"effect":"Deal Dark type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.","max_cooldown":20,"name":"Dark Seed Breath"},{"min_cooldown":10,"effect":"Deal 35000 Dark type damage to Light type enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Dark Strike"},{"min_cooldown":10,"effect":"All Dark and Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark and Water type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Deadly Drive"},{"min_cooldown":10,"effect":"All Wood and Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood and Dark type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Deadrise"},{"min_cooldown":15,"effect":"For 3 turns, all damage is reduced by 50%.","max_cooldown":20,"name":"Defensive Stance"},{"min_cooldown":15,"effect":"Deal Dark type damage equal to 50x user's ATK to all enemies. Affected by enemy element and defense. Poison all enemies. Poisoned enemies lose HP equal to 10x\u00a0the user's ATK each turn, ignoring element and defense.","max_cooldown":20,"name":"Destroying Lance, Gungnir"},{"min_cooldown":17,"effect":"For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":21,"name":"Devastating Wink!"},{"min_cooldown":12,"effect":"Attacks from Devil type monsters are 3x stronger for 1 turn.","max_cooldown":17,"name":"Devilish Enhancement"},{"min_cooldown":12,"effect":"Deal Dark type damage equal to 50x user's ATK to a single enemy and heals for 15% of damage done. Affected by enemy element and defense.","max_cooldown":17,"name":"Diabolic Lance, Gungnir"},{"min_cooldown":10,"effect":"All Fire and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Divine Wind of Creation Flame"},{"min_cooldown":9,"effect":"All Heart Orbs become Dark Orbs. All Light Orbs become Dark Orbs.","max_cooldown":16,"name":"Double Attack Stance-Dk"},{"min_cooldown":9,"effect":"All Heart Orbs become Fire Orbs. All Water Orbs become Fire Orbs.","max_cooldown":16,"name":"Double Attack Stance-Fr"},{"min_cooldown":9,"effect":"All Heart Orbs become Light Orbs. All Dark Orbs become Light Orbs.","max_cooldown":16,"name":"Double Attack Stance-Lt"},{"min_cooldown":9,"effect":"All Heart Orbs become Wood Orbs. All Fire Orbs become Wood Orbs.","max_cooldown":16,"name":"Double Attack Stance-Wd"},{"min_cooldown":9,"effect":"All Heart Orbs become Water Orbs. All Wood Orbs become Water Orbs.","max_cooldown":16,"name":"Double Attack Stance-Wt"},{"min_cooldown":9,"effect":"All Fire Orbs become Heart Orbs. All Light Orbs become Heart Orbs.","max_cooldown":14,"name":"Double Dark Guard"},{"min_cooldown":9,"effect":"All Wood Orbs become Heart Orbs. All Light Orbs become Heart Orbs.","max_cooldown":14,"name":"Double Fire Guard"},{"min_cooldown":9,"effect":"All Wood Orbs become Heart Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":14,"name":"Double Light Guard"},{"min_cooldown":9,"effect":"All Fire Orbs become Heart Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":14,"name":"Double Water Guard"},{"min_cooldown":9,"effect":"All Water Orbs become Heart Orbs. All Light Orbs become Heart Orbs.","max_cooldown":14,"name":"Double Wood Guard"},{"min_cooldown":15,"effect":"All Orbs become Fire/Dark Orbs.","max_cooldown":20,"name":"Draco Summoning Circle-Fr & Dk"},{"min_cooldown":15,"effect":"All Orbs become Wood/Dark Orbs.","max_cooldown":20,"name":"Draco Summoning Circle-Wd & Dk"},{"min_cooldown":15,"effect":"All Orbs become Water/Dark Orbs.","max_cooldown":20,"name":"Draco Summoning Circle-Wt & Dk"},{"min_cooldown":12,"effect":"Attacks from Dragon type monsters are 2x stronger for 1 turn.","max_cooldown":17,"name":"Draggie Enhance"},{"min_cooldown":11,"effect":"Attacks from Dragon type monsters are 2.5x stronger for 1 turn.","max_cooldown":21,"name":"Dragon Enhancement"},{"min_cooldown":11,"effect":"Matched Heart Orbs are 2x stronger for 4 turns.","max_cooldown":18,"name":"Dragon Heart Sutra"},{"min_cooldown":13,"effect":"Deal Dark type damage equal to 5x user's ATK to a single enemy and heals for 100% of damage done. Affected by enemy element and defense.","max_cooldown":20,"name":"Dragon Strength Spellflame"},{"min_cooldown":10,"effect":"Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.","max_cooldown":10,"name":"Droidance"},{"min_cooldown":10,"effect":"Deal 3000 Wood type damage to all enemies. Affected by enemy element and defense.","max_cooldown":25,"name":"Earth Ball"},{"min_cooldown":10,"effect":"Deal Wood type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Earth Breath"},{"min_cooldown":9,"effect":"Matched Wood Orbs are 1.5x stronger for 3 turns.","max_cooldown":17,"name":"Earth Enhancement"},{"min_cooldown":15,"effect":"For 3 turns, all Water damage is nullified.","max_cooldown":20,"name":"Earth Field"},{"min_cooldown":9,"effect":"All Orbs become Water/Wood/Dark Orbs.","max_cooldown":14,"name":"Eastern Seven-Star Formation"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 30%. Also, deal Dark type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":18,"name":"Ebony Sea Dragon Broadside"},{"min_cooldown":10,"effect":"For 1 turn, all Dark damage is nullified.","max_cooldown":15,"name":"Egg!"},{"min_cooldown":9,"effect":"Delay all enemies by 2 turns.","max_cooldown":14,"name":"Electric Impact"},{"min_cooldown":8,"effect":"Matched Water Orbs are 1.5x stronger for 1 turn. Also, Recover 3000 HP.","max_cooldown":13,"name":"Ell-Heal"},{"min_cooldown":9,"effect":"All Dark Orbs become Fire Orbs. All Heart Orbs become Fire Orbs.","max_cooldown":16,"name":"Emergency Launch!"},{"min_cooldown":10,"effect":"Do damage equal to 15x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":30,"name":"Energy Bomb"},{"min_cooldown":5,"effect":"All Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%.","max_cooldown":15,"name":"Enhanced Dark Orbs"},{"min_cooldown":5,"effect":"All Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.","max_cooldown":15,"name":"Enhanced Fire Orbs"},{"min_cooldown":5,"effect":"All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%.","max_cooldown":15,"name":"Enhanced Light Orbs"},{"min_cooldown":5,"effect":"All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.","max_cooldown":15,"name":"Enhanced Water Orbs"},{"min_cooldown":5,"effect":"All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%.","max_cooldown":15,"name":"Enhanced Wood Orbs"},{"min_cooldown":15,"effect":"For 3 turns, all damage is reduced by 75%.","max_cooldown":20,"name":"Evasion"},{"min_cooldown":5,"effect":"Deal 150000 Dark type damage to Light type enemies. Affected by enemy element and defense. Also, all Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%.","max_cooldown":20,"name":"Evil Nova"},{"min_cooldown":10,"effect":"Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Dark type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":19,"name":"Evil Wind"},{"min_cooldown":10,"effect":"Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"ExFreeze Breath"},{"min_cooldown":10,"effect":"Deal 3000 Fire type damage to all enemies. Affected by enemy element and defense.","max_cooldown":25,"name":"Fire Ball"},{"min_cooldown":10,"effect":"Deal Fire type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Fire Breath"},{"min_cooldown":5,"effect":"All Water Orbs become Fire Orbs.","max_cooldown":9,"name":"Fire Orb Change"},{"min_cooldown":8,"effect":"All Fire Orbs become Water Orbs. All Heart Orbs become Fire Orbs.","max_cooldown":13,"name":"Fire&Water Orbs Change"},{"min_cooldown":8,"effect":"All Wood Orbs become Fire Orbs. All Heart Orbs become Wood Orbs.","max_cooldown":13,"name":"Fire&Wood Orbs Change"},{"min_cooldown":5,"effect":"Deal Fire type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Flame Breath"},{"min_cooldown":5,"effect":"Deal 75000 Fire type damage to Wood type enemies. Affected by enemy element and defense. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.","max_cooldown":15,"name":"Flame Burst"},{"min_cooldown":9,"effect":"Matched Fire Orbs are 1.5x stronger for 3 turns.","max_cooldown":17,"name":"Flame Enhancement"},{"min_cooldown":13,"effect":"Deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Flame Gift"},{"min_cooldown":8,"effect":"Deal Fire type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Flame of Olympus"},{"min_cooldown":10,"effect":"Deal Fire type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.","max_cooldown":20,"name":"Flame Seed Breath"},{"min_cooldown":10,"effect":"Deal 35000 Fire type damage to Wood type enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Flame Strike"},{"min_cooldown":10,"effect":"Attacks from Physical type monsters are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":19,"name":"Flame Wind"},{"min_cooldown":5,"effect":"Deal 1000 Light type damage to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Flash Ball"},{"min_cooldown":5,"effect":"Deal Light type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Flash Breath"},{"min_cooldown":15,"effect":"For 3 turns, all Dark damage is nullified.","max_cooldown":20,"name":"Flashing Field"},{"min_cooldown":20,"effect":"Delay all enemies by 5 turns.","max_cooldown":25,"name":"Force"},{"min_cooldown":15,"effect":"For 3 turns, all Dark damage is nullified.","max_cooldown":20,"name":"Forsake"},{"min_cooldown":5,"effect":"Deal 75000 Water type damage to Fire type enemies. Affected by enemy element and defense. Also, all Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.","max_cooldown":15,"name":"Freeze Burst"},{"min_cooldown":10,"effect":"Deal 35000 Water type damage to Fire type enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Freeze Strike"},{"min_cooldown":6,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":16,"name":"Freezing Shift"},{"min_cooldown":8,"effect":"All Dark Orbs become Water Orbs. All Wood Orbs become Heart Orbs.","max_cooldown":13,"name":"Fresh!"},{"min_cooldown":10,"effect":"Deal 20000 Wood type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs become Wood Orbs.","max_cooldown":15,"name":"Gaia Ball"},{"min_cooldown":10,"effect":"Matched Wood Orbs are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"Gaia Breath"},{"min_cooldown":10,"effect":"Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":19,"name":"Gaia Wind"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 30%. Also, deal Light type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":18,"name":"Gilded Sea Dragon Broadside"},{"min_cooldown":10,"effect":"All Wood and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Glitter of Aegis"},{"min_cooldown":13,"effect":"Matched Water Orbs are 1.3x stronger for 4 turns. Also, deal Water type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":23,"name":"God Blizzard Breath"},{"min_cooldown":13,"effect":"Matched Wood Orbs are 1.3x stronger for 4 turns. Also, deal Wood type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":23,"name":"God Gaia Breath"},{"min_cooldown":13,"effect":"Matched Dark Orbs are 1.3x stronger for 4 turns. Also, deal Dark type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":23,"name":"God Hell Breath"},{"min_cooldown":13,"effect":"Matched Light Orbs are 1.3x stronger for 4 turns. Also, deal Light type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":23,"name":"God Holy Breath"},{"min_cooldown":13,"effect":"Matched Fire Orbs are 1.3x stronger for 4 turns. Also, deal Fire type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":23,"name":"God Magma Breath"},{"min_cooldown":8,"effect":"All Light Orbs become Heart Orbs. Recover 3000 HP.","max_cooldown":13,"name":"Grape Shower"},{"min_cooldown":15,"effect":"Do damage to all enemies equal to 15% of their current HP, ignoring element and defense.","max_cooldown":25,"name":"Gravity"},{"min_cooldown":20,"effect":"Do damage to all enemies equal to 35% of their current HP, ignoring element and defense.","max_cooldown":35,"name":"Gravity Breath"},{"min_cooldown":15,"effect":"Deal 30000 Dark type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":20,"name":"Gravity Cannon"},{"min_cooldown":8,"effect":"All Water Orbs become Wood Orbs. All Fire Orbs become Heart Orbs.","max_cooldown":13,"name":"Green Star Blade"},{"min_cooldown":12,"effect":"Attacks from Balanced type monsters are 1.5x stronger for 2 turns.","max_cooldown":17,"name":"GROOVE COASTER"},{"min_cooldown":7,"effect":"Deals Dark damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.","max_cooldown":15,"name":"Grudge Strike"},{"min_cooldown":6,"effect":"For 5 turns, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":15,"name":"Guard Break"},{"min_cooldown":5,"effect":"All Light Orbs become Heart Orbs.","max_cooldown":11,"name":"Guard Stance - Dark"},{"min_cooldown":5,"effect":"All Wood Orbs become Heart Orbs.","max_cooldown":11,"name":"Guard Stance - Fire"},{"min_cooldown":5,"effect":"All Dark Orbs become Heart Orbs.","max_cooldown":11,"name":"Guard Stance - Light"},{"min_cooldown":5,"effect":"All Fire Orbs become Heart Orbs.","max_cooldown":11,"name":"Guard Stance - Water"},{"min_cooldown":5,"effect":"All Water Orbs become Heart Orbs.","max_cooldown":11,"name":"Guard Stance - Wood"},{"min_cooldown":12,"effect":"Deal Light type damage equal to 50x user's ATK to a single enemy and heals for 10% of damage done. Affected by enemy element and defense.","max_cooldown":17,"name":"Gungnir"},{"min_cooldown":10,"effect":"Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Hard Mistral Breath"},{"min_cooldown":5,"effect":"Recover HP equal to 5x the user's RCV.Reduce all binds by 1 rounds.","max_cooldown":10,"name":"Heal"},{"min_cooldown":8,"effect":"For 1 turn, all Dark damage is nullified. Also, recover 3000 HP.","max_cooldown":13,"name":"Heal Barrier"},{"min_cooldown":8,"effect":"unknownCategory 50,117","max_cooldown":11,"name":"Healing Cheer"},{"min_cooldown":10,"effect":"Recover 2500 HP.","max_cooldown":10,"name":"Healing Dance"},{"min_cooldown":10,"effect":"Recover 3000 HP.","max_cooldown":10,"name":"Healing Shout"},{"min_cooldown":5,"effect":"Deal 1000 Fire type damage to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Heat Ball"},{"min_cooldown":5,"effect":"Deal Fire type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Heat Breath"},{"min_cooldown":10,"effect":"Deal 20000 Dark type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs become Dark Orbs.","max_cooldown":15,"name":"Hell Ball"},{"min_cooldown":10,"effect":"Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Hellfire Breath"},{"min_cooldown":15,"effect":"For 3 turns, all damage is reduced by 75%.","max_cooldown":20,"name":"Heroic Dragon Guard"},{"min_cooldown":10,"effect":"Deal 20000 Light type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs become Light Orbs.","max_cooldown":15,"name":"Holy Ball"},{"min_cooldown":10,"effect":"Matched Light Orbs are 1.3x stronger for 2 turns. Also, deal Light type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"Holy Breath"},{"min_cooldown":13,"effect":"Deal Light type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Holy Gift"},{"min_cooldown":14,"effect":"Delay all enemies by 2 turns. Also, Attacks from Healer type monsters are 2x stronger for 2 turns.","max_cooldown":18,"name":"Honest Insight"},{"min_cooldown":1,"effect":"Deal 500 Wood type damage to all enemies. Affected by enemy element and defense. Also, recover 500 HP.","max_cooldown":6,"name":"Hot Spring of Kusatsu"},{"min_cooldown":15,"effect":"Attacks from God type monsters are 1.5x stronger for 1 turn. Poison all enemies. Poisoned enemies lose HP equal to 10x\u00a0the user's ATK each turn, ignoring element and defense.","max_cooldown":20,"name":"Hydra's Poison"},{"min_cooldown":10,"effect":"Deal 3000 Water type damage to all enemies. Affected by enemy element and defense.","max_cooldown":25,"name":"Ice Ball"},{"min_cooldown":10,"effect":"Deal Water type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Ice Breath"},{"min_cooldown":13,"effect":"Deal Water type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Ice Gift"},{"min_cooldown":10,"effect":"Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":19,"name":"Ice Wind"},{"min_cooldown":8,"effect":"All Wood Orbs become Water Orbs. All Heart Orbs become Dark Orbs.","max_cooldown":13,"name":"I mustn't run away"},{"min_cooldown":10,"effect":"Matched Dark Orbs are 1.3x stronger for 2 turns. Also, deal Dark type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"Inferno Breath"},{"min_cooldown":8,"effect":"Delay all enemies by 1 turn.","max_cooldown":11,"name":"Intimidation"},{"min_cooldown":15,"effect":"For 5 turns, all damage is reduced by 50%.","max_cooldown":20,"name":"Iron Wall Stance"},{"min_cooldown":10,"effect":"For 2 turns, all damage is reduced by 50%.","max_cooldown":15,"name":"I will protect you"},{"min_cooldown":4,"effect":"Recover 4000 HP.","max_cooldown":10,"name":"Japan's Top Four Udon"},{"min_cooldown":15,"effect":"For 3 rounds, counter all damage with a Light type attack of 3x damage taken. Affected by enemy element and defense.","max_cooldown":20,"name":"Judgement in Holy Night"},{"min_cooldown":8,"effect":"Deal random Water type damage equal to 1-50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Jump"},{"min_cooldown":16,"effect":"All Orbs become Wood Orbs.","max_cooldown":30,"name":"Jupiter Genesis"},{"min_cooldown":6,"effect":"Do damage equal to 2x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":10,"name":"Kerokero Attack!"},{"min_cooldown":10,"effect":"Use a random skill from a pool of potential Active Skills. Possible skills are","max_cooldown":15,"name":"Killing Joke"},{"min_cooldown":10,"effect":"All Dark and Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark and Fire type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)","max_cooldown":15,"name":"Kiss of Demonic Fire Queen"},{"min_cooldown":11,"effect":"All Heart Orbs become Wood Orbs. All Dark Orbs become Wood Orbs. Also, Recover 3000 HP.","max_cooldown":15,"name":"Leading a Comeback"},{"min_cooldown":8,"effect":"All Dark Orbs become Heart Orbs. Recover 3000 HP.","max_cooldown":13,"name":"Lemon Shower"},{"min_cooldown":17,"effect":"For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":22,"name":"Libra"},{"min_cooldown":9,"effect":"For 1 turn, all damage is reduced by 35%.  Also, recover 4000 HP.","max_cooldown":19,"name":"Lifestream"},{"min_cooldown":8,"effect":"All Dark Orbs become Light Orbs. All Heart Orbs become Dark Orbs.","max_cooldown":13,"name":"Light&Dark Orbs Change"},{"min_cooldown":9,"effect":"Matched Light Orbs are 1.5x stronger for 3 turns.","max_cooldown":17,"name":"Light Enhancement"},{"min_cooldown":10,"effect":"Attacks from Physical type monsters are 1.3x stronger for 2 turns. Also, deal Light type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":19,"name":"Lightning Wind"},{"min_cooldown":5,"effect":"Recover 500 HP.","max_cooldown":10,"name":"Light of Healing"},{"min_cooldown":3,"effect":"Recover 2000 HP.","max_cooldown":10,"name":"Light of Mighty Healing"},{"min_cooldown":5,"effect":"All Dark Orbs become Light Orbs.","max_cooldown":9,"name":"Light Orb Change"},{"min_cooldown":10,"effect":"Deal random Dark type damage equal to 10-50x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Lucky(?) Ribbon"},{"min_cooldown":13,"effect":"Do damage equal to 20x user's ATK to a single enemy and recover 50% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":23,"name":"Magic-Draining Light"},{"min_cooldown":10,"effect":"Deal 20000 Fire type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs become Fire Orbs.","max_cooldown":15,"name":"Magma Ball"},{"min_cooldown":10,"effect":"Matched Fire Orbs are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":30,"name":"Magma Breath"},{"min_cooldown":12,"effect":"Delay all enemies by 1 turn. Also, Deal Fire type damage equal to 50x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":22,"name":"Mars Daylight"},{"min_cooldown":10,"effect":"Do 9999 set damage to all enemies, ignoring element and defense.","max_cooldown":20,"name":"Mega Flare"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":15,"name":"Melody Wink"},{"min_cooldown":8,"effect":"All Water Orbs become Heart Orbs. Recover 3000 HP.","max_cooldown":13,"name":"Melon Shower"},{"min_cooldown":10,"effect":"Delay all enemies by 3 turns.","max_cooldown":15,"name":"Menace"},{"min_cooldown":4,"effect":"For 1 turn, all damage is reduced by 35%.","max_cooldown":11,"name":"Merciful Protection"},{"min_cooldown":8,"effect":"All Light Orbs become Fire Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"Miracle of Fire"},{"min_cooldown":16,"effect":"All Orbs become Heart Orbs.","max_cooldown":23,"name":"Miracle of Healing"},{"min_cooldown":8,"effect":"All Light Orbs become Water Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"Miracle of Ice"},{"min_cooldown":8,"effect":"All Light Orbs become Wood Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"Miracle of Wood"},{"min_cooldown":12,"effect":"Attacks from Physical type monsters are 3x stronger for 1 turn.","max_cooldown":17,"name":"Muscle Enhancement"},{"min_cooldown":15,"effect":"Do damage equal to 20x user's ATK to a single enemy and recover 10% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":20,"name":"Nightmare Sword"},{"min_cooldown":10,"effect":"Deal random Fire type damage equal to 20-100x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Nine Lives"},{"min_cooldown":5,"effect":"All Dark Orbs become Water Orbs.","max_cooldown":9,"name":"Ninja Art Dk to Wt"},{"min_cooldown":16,"effect":"All Orbs become Fire Orbs.","max_cooldown":30,"name":"Ninja Art Fireworks"},{"min_cooldown":5,"effect":"All Fire Orbs become Dark Orbs.","max_cooldown":9,"name":"Ninja Art Fr to Dk"},{"min_cooldown":5,"effect":"All Light Orbs become Fire Orbs.","max_cooldown":9,"name":"Ninja Art Lt to Fr"},{"min_cooldown":15,"effect":"Do damage equal to 20x user's ATK to a single enemy and recover 5% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":25,"name":"Ninja Art Shadow Tag"},{"min_cooldown":5,"effect":"All Wood Orbs become Light Orbs.","max_cooldown":9,"name":"Ninja Art Wd to Lt"},{"min_cooldown":5,"effect":"All Water Orbs become Wood Orbs.","max_cooldown":9,"name":"Ninja Art Wt to Wd"},{"min_cooldown":9,"effect":"All Orbs become Wood/Light/Dark Orbs.","max_cooldown":14,"name":"Northern Seven-Star Formation"},{"min_cooldown":6,"effect":"Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.","max_cooldown":12,"name":"Orb Refresh"},{"min_cooldown":15,"effect":"Attacks from God type monsters are 1.5x stronger for 4 turns. Also, HP becomes 1, and deal Wood type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":25,"name":"Overcoming Hardship"},{"min_cooldown":15,"effect":"Attacks from Healer type monsters are 2x stronger for 2 turns. Also, for 2 turns, all damage is reduced by 35%.","max_cooldown":25,"name":"Performance of Judgement"},{"min_cooldown":4,"effect":"Deal 25000 Wood type damage to all enemies. Affected by enemy element and defense.","max_cooldown":9,"name":"Plant Ball"},{"min_cooldown":13,"effect":"Deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":13,"name":"Plant Gift"},{"min_cooldown":4,"effect":"Deal 25000 Light type damage to all enemies. Affected by enemy element and defense.","max_cooldown":9,"name":"Plasma Ball"},{"min_cooldown":5,"effect":"Deal Light type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Plasma Breath"},{"min_cooldown":15,"effect":"Deal 30000 Light type damage to all enemies. Affected by enemy element and defense. Also, all Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":20,"name":"Plasma Cannon"},{"min_cooldown":15,"effect":"Poison all enemies. Poisoned enemies lose HP equal to 2x\u00a0the user's ATK each turn, ignoring element and defense.","max_cooldown":20,"name":"Poison Death Mist"},{"min_cooldown":15,"effect":"Deal Water type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Poison all enemies. Poisoned enemies lose HP equal to 8x\u00a0the user's ATK each turn, ignoring element and defense.","max_cooldown":25,"name":"Poison Fang of Temptation"},{"min_cooldown":10,"effect":"Attacks from Devil type monsters are 1.5x stronger for 1 turn. Poison all enemies. Poisoned enemies lose HP equal to the user's ATK each turn, ignoring element and defense.","max_cooldown":15,"name":"Poison Mist"},{"min_cooldown":11,"effect":"Matched Light Orbs are 2x stronger for 1 turn.","max_cooldown":15,"name":"Pompurin Dance"},{"min_cooldown":3,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":6,"name":"Prehistoric Wisdom"},{"min_cooldown":8,"effect":"Delay all enemies by 1 turn.","max_cooldown":11,"name":"Princess Smile"},{"min_cooldown":8,"effect":"For 1 turn, all damage is reduced by 75%.","max_cooldown":11,"name":"Protection of Divine Wisdom"},{"min_cooldown":3,"effect":"For 1 turn, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 10x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":10,"name":"Quick Bomb"},{"min_cooldown":6,"effect":"Recover HP equal to 6x the user's RCV.Reduce all binds by 2 rounds.","max_cooldown":11,"name":"Quick Cure"},{"min_cooldown":3,"effect":"Recover HP equal to 3x the user's RCV.Reduce all binds by 2 rounds.","max_cooldown":8,"name":"Quick Heal"},{"min_cooldown":7,"effect":"Freely move orbs for 7 seconds without triggering matches.","max_cooldown":12,"name":"Rainbow Magnet"},{"min_cooldown":5,"effect":"Recover 300 HP.","max_cooldown":10,"name":"Ray of Healing"},{"min_cooldown":12,"effect":"Attacks from Healer type monsters are 3x stronger for 1 turn.","max_cooldown":17,"name":"Recovery Enhancement"},{"min_cooldown":8,"effect":"All Fire Orbs become Water Orbs. All Heart Orbs become Wood Orbs.","max_cooldown":11,"name":"Ritual of the Mountain and Sea"},{"min_cooldown":14,"effect":"Delay all enemies by 1 turn. All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":23,"name":"Roar of the Time-Sea"},{"min_cooldown":5,"effect":"Deal Wood type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Rock Breath"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 50%.","max_cooldown":12,"name":"Rock Shield"},{"min_cooldown":10,"effect":"Deal 35000 Wood type damage to Water type enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Rock Strike"},{"min_cooldown":22,"effect":"For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":22,"name":"Search"},{"min_cooldown":8,"effect":"Do 300 set damage to a single enemy, ignoring element and defense.","max_cooldown":15,"name":"Secret Bonus"},{"min_cooldown":8,"effect":"All Wood Orbs become Dark Orbs. All Light Orbs become Heart Orbs.","max_cooldown":13,"name":"Secret Box"},{"min_cooldown":8,"effect":"All Dark Orbs become Light Orbs. All Fire Orbs become Heart Orbs.","max_cooldown":13,"name":"Selfless Devotion"},{"min_cooldown":15,"effect":"For 3 turns, all Light damage is nullified.","max_cooldown":20,"name":"Shadow Field"},{"min_cooldown":8,"effect":"For 5 turns, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round.","max_cooldown":15,"name":"Shield Break"},{"min_cooldown":10,"effect":"Deal Light type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.","max_cooldown":20,"name":"Shine Seed Breath"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 35%. Also, All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%.","max_cooldown":20,"name":"Shining Death Queen's Whisper"},{"min_cooldown":10,"effect":"All Light Orbs become Wood Orbs. All Heart Orbs become Light Orbs.","max_cooldown":15,"name":"Shinra Bansho"},{"min_cooldown":10,"effect":"Recover all HP.Reduce all binds by 9999 rounds.","max_cooldown":20,"name":"Shower of Healing"},{"min_cooldown":15,"effect":"Deal random Dark type damage equal to 1-50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":20,"name":"Shuffle Shot"},{"min_cooldown":7,"effect":"Deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":12,"name":"Sidewinder"},{"min_cooldown":9,"effect":"Delay all enemies by 2 turns.","max_cooldown":14,"name":"Slow"},{"min_cooldown":8,"effect":"All Fire Orbs become Wood Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"Smiling Palm"},{"min_cooldown":7,"effect":"Deals Fire damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.","max_cooldown":15,"name":"Smite of Rage"},{"min_cooldown":9,"effect":"All Fire Orbs become Heart Orbs. All Water Orbs become Heart Orbs.","max_cooldown":13,"name":"Snack Time!"},{"min_cooldown":9,"effect":"Do 7777 set damage to all enemies, ignoring element and defense.","max_cooldown":14,"name":"Solar Lazer"},{"min_cooldown":7,"effect":"All Heart Orbs become Fire Orbs. Also, Recover 3000 HP.","max_cooldown":12,"name":"Solid Fortitude"},{"min_cooldown":9,"effect":"All Orbs become Fire/Wood/Light Orbs.","max_cooldown":14,"name":"Southern Seven-Star Formation"},{"min_cooldown":6,"effect":"Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.","max_cooldown":10,"name":"Spanking!"},{"min_cooldown":4,"effect":"Deal 25000 Water type damage to all enemies. Affected by enemy element and defense.","max_cooldown":9,"name":"Splash Ball"},{"min_cooldown":5,"effect":"Deal Water type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Splash Breath"},{"min_cooldown":6,"effect":"All attacks become multi-target for 3 turns.","max_cooldown":13,"name":"Spread Cats"},{"min_cooldown":8,"effect":"All Wood Orbs become Heart Orbs. Recover 3000 HP.","max_cooldown":13,"name":"Strawberry Shower"},{"min_cooldown":20,"effect":"Deal Light type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":20,"name":"Sweet Shoot"},{"min_cooldown":8,"effect":"All Water Orbs become Light Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"The Compliant Rod"},{"min_cooldown":6,"effect":"For 3 turns, all damage is reduced by 35%.","max_cooldown":13,"name":"The Feathered Garment of Yomi"},{"min_cooldown":25,"effect":"HP becomes 1, and deal 300000 Dark type damage to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":35,"name":"The Morning Star"},{"min_cooldown":12,"effect":"Do damage equal to 8x user's ATK to a single enemy and recover 50% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":17,"name":"The promised time has come"},{"min_cooldown":8,"effect":"All Fire Orbs become Water Orbs. All Light Orbs become Heart Orbs.","max_cooldown":13,"name":"The Sacred Blue Chains"},{"min_cooldown":6,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":16,"name":"The Switch"},{"min_cooldown":8,"effect":"All Wood Orbs become Fire Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":13,"name":"The Sword Kusanagi"},{"min_cooldown":17,"effect":"For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.","max_cooldown":22,"name":"Third Eye"},{"min_cooldown":10,"effect":"Deal 3000 Light type damage to all enemies. Affected by enemy element and defense.","max_cooldown":25,"name":"Thunder Ball"},{"min_cooldown":10,"effect":"Deal Light type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":20,"name":"Thunder Breath"},{"min_cooldown":10,"effect":"Deal 35000 Light type damage to Dark type enemies. Affected by enemy element and defense.","max_cooldown":15,"name":"Thunder Strike"},{"min_cooldown":25,"effect":"HP becomes 1, and deal 300000 Water type damage to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":35,"name":"Time has come..."},{"min_cooldown":10,"effect":"Freely move orbs for 6 seconds without triggering matches.","max_cooldown":15,"name":"Time's Coiled Spring"},{"min_cooldown":15,"effect":"Deal 30000 Wood type damage to all enemies. Affected by enemy element and defense. Also, all Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.","max_cooldown":20,"name":"Tornado Cannon"},{"min_cooldown":15,"effect":"Do damage to all enemies equal to 30% of their current HP, ignoring element and defense.","max_cooldown":30,"name":"Ultra Gravity"},{"min_cooldown":12,"effect":"Attacks from Devil type monsters are 2.5x stronger for 1 turn. Also, HP becomes 1, and deal Dark type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":16,"name":"Unparalleled Destructive Strike"},{"min_cooldown":7,"effect":"All Heart Orbs become Wood Orbs. Also, Recover 3000 HP.","max_cooldown":12,"name":"Unwavering Faith"},{"min_cooldown":15,"effect":"HP becomes 1, and deal Water type damage equal to 200x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":30,"name":"Vast Dawn"},{"min_cooldown":7,"effect":"For 1 turn, all damage is reduced by 30%. Also, deal Wood type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":18,"name":"Verdant Sea Dragon Broadside"},{"min_cooldown":8,"effect":"Delay all enemies by 1 turn.","max_cooldown":11,"name":"Virtuous Foundation"},{"min_cooldown":9,"effect":"Matched Water Orbs are 1.5x stronger for 3 turns.","max_cooldown":17,"name":"Water Enhancement"},{"min_cooldown":5,"effect":"All Wood Orbs become Water Orbs.","max_cooldown":9,"name":"Water Orb Change"},{"min_cooldown":15,"effect":"For 3 turns, all Fire damage is nullified.","max_cooldown":20,"name":"Water Rapids Field"},{"min_cooldown":8,"effect":"All Water Orbs become Wood Orbs. All Heart Orbs become Water Orbs.","max_cooldown":13,"name":"Water&Wood Orbs Change"},{"min_cooldown":9,"effect":"All Orbs become Fire/Water/Dark Orbs.","max_cooldown":14,"name":"Western Seven-Star Formation"},{"min_cooldown":5,"effect":"Freely move orbs for 5 seconds without triggering matches.","max_cooldown":15,"name":"What are you, stupid?"},{"min_cooldown":5,"effect":"Deal 1000 Wood type damage to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Wind Ball"},{"min_cooldown":5,"effect":"Deal Wood type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":10,"name":"Wind Breath"},{"min_cooldown":10,"effect":"Deal Wood type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.","max_cooldown":20,"name":"Wind Seed Breath"},{"min_cooldown":6,"effect":"This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.","max_cooldown":23,"name":"Wisdom of the Ancients"},{"min_cooldown":5,"effect":"All Fire Orbs become Wood Orbs.","max_cooldown":9,"name":"Wood Orb Change"},{"min_cooldown":5,"effect":"Freely move orbs for 5 seconds without triggering matches.","max_cooldown":15,"name":"World"},{"min_cooldown":25,"effect":"HP becomes 1, and deal Dark type damage equal to 300x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":35,"name":"World's End"},{"min_cooldown":20,"effect":"Do damage to all enemies equal to 35% of their current HP, ignoring element and defense.","max_cooldown":35,"name":"Wrath of God"},{"min_cooldown":4,"effect":"For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":8,"name":"\u4e00\u63e1\u308a\u306e\u706b\u85ac"},{"min_cooldown":12,"effect":"Attacks from Fire and Dark type monsters are 1.5x stronger for 1 turn.","max_cooldown":17,"name":"\u4e00\u6483\u96e2\u8131\u30cb\u30e3\uff01"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. Also, All Dark Orbs become Wood Orbs.","max_cooldown":20,"name":"\u4e07\u592b\u4e0d\u5f53\u306e\u4e00\u559d"},{"min_cooldown":20,"effect":"Recover all HP and clear all binds.","max_cooldown":20,"name":"\u4ed9\u8c46"},{"min_cooldown":13,"effect":"Attacks from Healer type monsters are 1.5x stronger for 2 turns.","max_cooldown":18,"name":"\u50d5\u3001\u3061\u3087\u3063\u3068\u5f37\u3044\u304b\u3082"},{"min_cooldown":12,"effect":"Attacks from Light and Dark type monsters are 1.5x stronger for 1 turn.","max_cooldown":20,"name":"\u30d2\u30a8\u30ed\u30b0\u30ea\u30d5\u306e\u523b\u5370"},{"min_cooldown":8,"effect":"Attacks from Physical type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"\u529b\u3092\u305f\u3081\u308b\u30cb\u30e3\uff01"},{"min_cooldown":5,"effect":"Recover 3000 HP.Reduce all binds by 1 rounds.","max_cooldown":9,"name":"\u53cb\u3068\u306e\u7d04\u675f"},{"min_cooldown":7,"effect":"Attacks from Balanced type monsters are 1.3x stronger for 5 turns.","max_cooldown":12,"name":"\u5805\u5b9f\u306b\u3044\u304f\u30cb\u30e3\uff01"},{"min_cooldown":11,"effect":"For 1 turn, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, deal Light type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":15,"name":"\u58f1\u4e43\u638c"},{"min_cooldown":13,"effect":"For 1 turn, all damage is reduced by 35%. Also, Attacks from Dragon type monsters are 1.5x stronger for 1 turn.","max_cooldown":18,"name":"\u5909\u8eab"},{"min_cooldown":6,"effect":"All Water Orbs become Heart Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u5b88\u8b77\u9b54\u6cd5\u30fb\u5149"},{"min_cooldown":6,"effect":"All Fire Orbs become Heart Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u5b88\u8b77\u9b54\u6cd5\u30fb\u6728"},{"min_cooldown":6,"effect":"All Wood Orbs become Heart Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u5b88\u8b77\u9b54\u6cd5\u30fb\u6c34"},{"min_cooldown":6,"effect":"All Water Orbs become Heart Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u5b88\u8b77\u9b54\u6cd5\u30fb\u706b"},{"min_cooldown":6,"effect":"All Wood Orbs become Heart Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u5b88\u8b77\u9b54\u6cd5\u30fb\u95c7"},{"min_cooldown":9,"effect":"Attacks from Dragon type monsters are 2x stronger for 2 turns. Also,  HP becomes 1, and deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":13,"name":"\u5eec\u5c71\u6607\u9f8d\u8987"},{"min_cooldown":9,"effect":"Do damage equal to 50x user's ATK to a single enemy. Also, All Heart Orbs become Light Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":13,"name":"\u30da\u30ac\u30b5\u30b9\u5f57\u661f\u62f3"},{"min_cooldown":19,"effect":"Delay all enemies by 4 turns.","max_cooldown":23,"name":"\u5f8b\u3059\u308b\u5c0f\u6307\u306e\u9396"},{"min_cooldown":10,"effect":"Do damage equal to 80x user's ATK to a single enemy. Also, All Wood Orbs become Water Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":14,"name":"\u5fc5\u6bba\u5263"},{"min_cooldown":8,"effect":"Attacks from Healer type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"\u5fdc\u63f4\u3059\u308b\u30cb\u30e3\uff01"},{"min_cooldown":7,"effect":"Deals Dark damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.","max_cooldown":11,"name":"\u201c\u6028\u201d"},{"min_cooldown":10,"effect":"For 1 turn, defense of all enemies is reduced to 65%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, For 1 turn, all damage is reduced by 35%.","max_cooldown":20,"name":"\u6211\u30ac\u529b\u30f2\u3001\u884c\u4f7f\u30b9\u30eb"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. Also, deal Wood type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":15,"name":"\u30b8\u30e3\u30b8\u30e3\u30f3\u62f3\u30fb\u30b0\u30fc"},{"min_cooldown":20,"effect":"Deal Light type damage equal to 100x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":20,"name":"\u30b9\u30a4\u30fc\u30c4\u30b7\u30e5\u30fc\u30c8\u6539"},{"min_cooldown":10,"effect":"Drop rate of Wood Orbs is increased by  10% for 3 turns.","max_cooldown":15,"name":"\u6728\u306e\u76ee\u899a\u3081"},{"min_cooldown":14,"effect":"Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 50x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":28,"name":"\u3069\u304a\u308c\u3001\u672c\u6c17\u3067\u3044\u304f\u304b"},{"min_cooldown":7,"effect":"Attacks from Dragon type monsters are 1.2x stronger for 5 turns.","max_cooldown":12,"name":"\u672c\u6c17\u3060\u3059\u30cb\u30e3\uff01"},{"min_cooldown":8,"effect":"Attacks from Physical type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"\u6843\u8272\u5410\u606f"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. Also, do damage equal to 30x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":15,"name":"\u6c17\u5186\u65ac"},{"min_cooldown":9,"effect":"HP becomes 1, and deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1. Also, Delay all enemies by 2 turns.","max_cooldown":13,"name":"\u6c17\u529f\u7832"},{"min_cooldown":8,"effect":"Attacks from Attacker type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"\u6c17\u5408\u3092\u5165\u308c\u308b\u30cb\u30e3\uff01"},{"min_cooldown":10,"effect":"Drop rate of Water Orbs is increased by  10% for 3 turns.","max_cooldown":15,"name":"\u6c34\u306e\u76ee\u899a\u3081"},{"min_cooldown":12,"effect":"Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 100x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":16,"name":"\u304b\u3081\u306f\u3081\u6ce2"},{"min_cooldown":9,"effect":"For 2 turns, all Light damage is nullified. Also, do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":13,"name":"\u3069\u3069\u3093\u6ce2"},{"min_cooldown":7,"effect":"Do damage equal to 30x user's ATK to a single enemy. Also, all attacks become multi-target for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":11,"name":"\u30da\u30ac\u30b5\u30b9\u6d41\u661f\u62f3"},{"min_cooldown":10,"effect":"Drop rate of Fire Orbs is increased by  10% for 3 turns.","max_cooldown":15,"name":"\u706b\u306e\u76ee\u899a\u3081"},{"min_cooldown":999,"effect":"Unknown - needs data update","max_cooldown":999,"name":"\u7121\u3057"},{"min_cooldown":13,"effect":"Attacks from God type monsters are 1.3x stronger for 1 turn. Also, deal Light type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.","max_cooldown":22,"name":"\u738b\u306e\u4e00\u624b"},{"min_cooldown":10,"effect":"Randomly use one skill from below:","max_cooldown":14,"name":"\u76d7\u8cca\u306e\u6975\u610f"},{"min_cooldown":8,"effect":"Attacks from God type monsters are 1.5x stronger for 1 turn. Also,  HP becomes 1, and deal Dark type damage equal to 40x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":13,"name":"\u795e\u5668\u306e\u4e00\u6483"},{"min_cooldown":8,"effect":"Attacks from Balanced type monsters are 2x stronger for 1 turn.","max_cooldown":11,"name":"\u7a81\u9032\u6e96\u5099\u30cb\u30e3\uff01"},{"min_cooldown":9,"effect":"Deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense. Also, All attacks become multi-target for 2 turns.","max_cooldown":13,"name":"\u7e70\u6c17\u5f3e"},{"min_cooldown":20,"effect":"HP becomes 1, and deal Wood type damage equal to 80x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.","max_cooldown":35,"name":"\u81ea\u7206"},{"min_cooldown":19,"effect":"For 1 turn, all damage is reduced by 100%.","max_cooldown":24,"name":"\u82e6\u96e3\u6253\u7834\u306e\u77e5\u6075"},{"min_cooldown":6,"effect":"All Wood Orbs become Poison Orbs.","max_cooldown":11,"name":"\u30e2\u30eb\u30dc\u30eb\u83cc"},{"min_cooldown":11,"effect":"Delay all enemies by 1 turn. Also, deal Dark type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":15,"name":"\u843d\u96f7"},{"min_cooldown":11,"effect":"For 1 turn, all damage is reduced by 25%.  Also, All Heart Orbs become Water Orbs. All Dark Orbs become Water Orbs.","max_cooldown":15,"name":"\u84bc\u8987\u738b\u306e\u63f4\u8b77"},{"min_cooldown":4,"effect":"For 1 turn, all damage is reduced by 30%.","max_cooldown":8,"name":"\u8584\u3063\u307a\u3089\u306a\u5618"},{"min_cooldown":12,"effect":"Do damage equal to 100x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense. Also, All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.","max_cooldown":16,"name":"\u8d85\u304b\u3081\u306f\u3081\u6ce2"},{"min_cooldown":8,"effect":"All Water Orbs become Heart Orbs. Also, all attacks become multi-target for 1 turn.","max_cooldown":16,"name":"\u30b7\u30ea\u30a6\u30b9\u306e\u8f1d\u304d"},{"min_cooldown":10,"effect":"Recover 832 HP.","max_cooldown":10,"name":"\u30d5\u30a1\u30df\u901aApp\u306e\u58f0\u63f4"},{"min_cooldown":12,"effect":"Do 832 set damage to all enemies, ignoring element and defense.","max_cooldown":12,"name":"\u30d5\u30a1\u30df\u901aApp\u306e\u5927\u6fc0\u6012"},{"min_cooldown":3,"effect":"Deal 832 Light type damage to all enemies. Affected by enemy element and defense.","max_cooldown":3,"name":"\u30d5\u30a1\u30df\u901aApp\u306e\u6012\u308a"},{"min_cooldown":8,"effect":"Do damage equal to 4.5x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.","max_cooldown":12,"name":"\u9b54\u69cd\u3050\u3093\u3050\u306b\u30fc\u308b\u30cb\u30e3\uff01"},{"min_cooldown":18,"effect":"Deal Dark type damage equal to 200x user's ATK to a single enemy. Affected by enemy element and defense.","max_cooldown":22,"name":"\u9b54\u8cab\u5149\u6bba\u7832"},{"min_cooldown":9,"effect":"Do damage equal to 50x user's ATK to a single enemy. Also, recover 5000 HP. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.","max_cooldown":13,"name":"\u9cf3\u7ffc\u5929\u7fd4"},{"min_cooldown":8,"effect":"All Heart Orbs become Light Orbs. All Dark Orbs become Heart Orbs.","max_cooldown":12,"name":"\u9ec4\u91d1\u306e\u6756"},{"min_cooldown":6,"effect":"All Heart Orbs become Light Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u9f8d\u6483\u614b\u52e2\u30fb\u5149"},{"min_cooldown":6,"effect":"All Heart Orbs become Water Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u9f8d\u6483\u614b\u52e2\u30fb\u6c34"},{"min_cooldown":6,"effect":"All Heart Orbs become Fire Orbs. Reduce all binds by 1 rounds.","max_cooldown":11,"name":"\u9f8d\u6483\u614b\u52e2\u30fb\u706b"}]
+[
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage to all enemies equal to 10% of their current HP, ignoring element and defense.",
+        "max_cooldown": 10,
+        "name": "\u3044\u3058\u308f\u308b"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage to all enemies equal to 25% of their current HP, ignoring element and defense.",
+        "max_cooldown": 25,
+        "name": "\u30c7\u30b9\u30dc\u30fc\u30eb"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Recover HP equal to 7x the user's RCV.Reduce all binds by 2 rounds.",
+        "max_cooldown": 11,
+        "name": "\u30cf\u30a4\u30d2\u30fc\u30eb"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "All Heart Orbs become Poison Orbs. Also, Attacks from Dragon type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 12,
+        "name": "\u30d0\u30fc\u30b5\u30fc\u30af"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.",
+        "max_cooldown": 11,
+        "name": "\u30de\u30c3\u30cf\u30ad\u30c3\u30af"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 6 turns, all damage is reduced by 30%.",
+        "max_cooldown": 12,
+        "name": "\u3075\u3093\u3070\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 16,
+        "name": "\u30b0\u30e9\u30f3\u30c9\u30cf\u30a6\u30eb"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Freely move orbs for 5 seconds without triggering matches.",
+        "max_cooldown": 17,
+        "name": "\u30b5\u30a4\u30b3\u30ad\u30cd\u30b7\u30b9"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Wood and Light type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "\u30b9\u30ad\u3042\u308a\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Light type damage equal to 8x user's ATK to a single enemy and heals for 50% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "\u30bd\u30a6\u30eb\u30c9\u30ec\u30a4\u30f3"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Deal random Light type damage equal to 1-50x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "\u30c9\u30c9\u30f3\u304c\u30c9\u30f3\uff01"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%. Also, for 2 turns, all damage is reduced by 35%.",
+        "max_cooldown": 15,
+        "name": "\u30d6\u30e9\u30c3\u30c9\u30cf\u30a6\u30eb"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal random Fire type damage equal to 1-100x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "\u30d6\u30ec\u30a4\u30ba\u30d6\u30ec\u30b9"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 30x user's ATK to a single enemy.Also, Attacks from Healer type monsters are 2x stronger for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 14,
+        "name": "\u30cd\u30d3\u30e5\u30e9\u30c1\u30a7\u30fc\u30f3"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Fire type damage equal to 20x user's ATK to a single enemy and heals for 50% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d5\u30ec\u30a2"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 30x user's ATK to a single enemy. Also, All Poison Orbs become Heart Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 17,
+        "name": "\u30df\u30eb\u30ad\u30fc\u30ad\u30e3\u30ce\u30f3"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Do damage equal to 4x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 12,
+        "name": "\u3050\u3093\u3050\u306b\u30fc\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "\u30af\u30e9\u30c3\u30b7\u30e3\u30fc\u30dc\u30fc\u30eb"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Matched Heart Orbs are 1.2x stronger for 6 turns.",
+        "max_cooldown": 12,
+        "name": "\u30b5\u30dd\u30fc\u30c8\u3059\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 30x user's ATK to a single enemy.Also, Attacks from Balanced type monsters are 2x stronger for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 14,
+        "name": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u30c0\u30b9\u30c8"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 20,
+        "name": "\u30d6\u30ed\u30fc\u30cb\u30f3\u30b0\u30b7\u30d5\u30c8"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 16,
+        "name": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30cf\u30a6\u30eb"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Fire Orbs. All Wood Orbs become Fire Orbs.",
+        "max_cooldown": 16,
+        "name": "\u30a6\u30eb\u30c8\u30e9\u30d2\u30fc\u30c8\u30a2\u30c3\u30d7"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 80x user's ATK to a single enemy. Also, All Fire Orbs become Dark Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 14,
+        "name": "\u30d5\u30a1\u30a4\u30ca\u30eb\u30d5\u30e9\u30c3\u30b7\u30e5"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "All Orbs become Heart\/Light\/Dark Orbs.",
+        "max_cooldown": 20,
+        "name": "\u30e9\u30b9\u30c8\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "\u30ea\u30af\u30fc\u30e0\u2026\u30a6\u30eb\u30c8\u30e9\u2026"
+    },
+    {
+        "min_cooldown": 18,
+        "effect": "Freely move orbs for 12 seconds without triggering matches.",
+        "max_cooldown": 28,
+        "name": "\u30a2\u30ca\u30b6\u30fc\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Attacker type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 12,
+        "name": "100 Victories in 100 Battles"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 2 turns, all damage is reduced by 35%. Also, deal Fire type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 17,
+        "name": "Alchemical Forging"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Attacks from Attacker type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 12,
+        "name": "All right, understood!"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Attacks from Balanced type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 10,
+        "name": "Apple Power!"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Water type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.",
+        "max_cooldown": 20,
+        "name": "Aqua Seed Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 turns, defense of all enemies is reduced to 25%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 17,
+        "name": "Armor Break"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Attacker type monsters are 3x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Attack Enhancement"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Heart Orbs become Dark Orbs.",
+        "max_cooldown": 11,
+        "name": "Attack Stance - Dark"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Heart Orbs become Fire Orbs.",
+        "max_cooldown": 11,
+        "name": "Attack Stance - Fire"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Heart Orbs become Light Orbs.",
+        "max_cooldown": 11,
+        "name": "Attack Stance - Light"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Heart Orbs become Water Orbs.",
+        "max_cooldown": 11,
+        "name": "Attack Stance - Water"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Heart Orbs become Wood Orbs.",
+        "max_cooldown": 11,
+        "name": "Attack Stance - Wood"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "All Orbs become Wood\/Light Orbs.",
+        "max_cooldown": 20,
+        "name": "Aubade Gaia"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 30%. Also, deal Water type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "Azure Sea Dragon Broadside"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Poison all enemies. Poisoned enemies lose HP equal to 2x\u00a0the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Bad Breath"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Balanced type monsters are 3x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Balanced Enhancement"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Matched Dark Orbs are 2x stronger for 1 turn.",
+        "max_cooldown": 15,
+        "name": "Batwing"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Attacks from God type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "BEAMS\u30d3\u30fc\u30e0"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "Attacks from Balanced type monsters are 1.2x stronger for 6 turns.",
+        "max_cooldown": 6,
+        "name": "Birdarangs"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal 30000 Fire type damage to all enemies. Affected by enemy element and defense. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 20,
+        "name": "Blast Cannon"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Deal 25000 Fire type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 9,
+        "name": "Blaze Ball"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Wood damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Blazing Field"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Deal 40000 Water type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Blizzaga"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 20000 Water type damage to all enemies. Affected by enemy element and defense. Also, all Light Orbs become Water Orbs.",
+        "max_cooldown": 15,
+        "name": "Blizzard Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Matched Water Orbs are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Blizzard Breath"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal 30000 Water type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 20,
+        "name": "Blizzard Cannon"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Fire Orbs become Heart Orbs. Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Blueberry Shower"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage to all enemies equal to 20% of their current HP, ignoring element and defense.",
+        "max_cooldown": 15,
+        "name": "Boisterous Dance"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 10x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Bomb"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Matched Wood Orbs are 1.5x stronger for 1 turn.",
+        "max_cooldown": 12,
+        "name": "Boost"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from God type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "Breath of Creation"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Light and Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Light and Dark type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Breath of the Demon God"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 16,
+        "name": "Burning Shift"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 2 turns, defense of all enemies is reduced to 25%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 50x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Burst Bomb"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage to all enemies equal to 15% of their current HP, ignoring element and defense.",
+        "max_cooldown": 25,
+        "name": "Butcher Knife"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Delay all enemies by 1 turn. Also, All Water Orbs become Fire Orbs.",
+        "max_cooldown": 14,
+        "name": "Carving One's Own Path"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Freely move orbs for 10 seconds without triggering matches.",
+        "max_cooldown": 20,
+        "name": "Change the World"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 3000 Dark type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Chaos Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Dark type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Chaos Breath"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Attacks from Fire and Water type monsters are 1.3x stronger for 5 turns.",
+        "max_cooldown": 15,
+        "name": "Charge!!"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal Light type damage equal to 40x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Choco Attack"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Recover HP equal to 15x the user's RCV.",
+        "max_cooldown": 15,
+        "name": "Choco Cure"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "For 1 turn, all damage is reduced by 50%.",
+        "max_cooldown": 8,
+        "name": "Choco Guard"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal random Fire type damage equal to 10-100x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Choco Meteor"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Water and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Water and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Clear Water Star Astrology"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 1000 Water type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Cold Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Water type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Cold Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Water and Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Water and Wood type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Cold Wave"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal Fire type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Crimson Bomb"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 30%. Also, deal Fire type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "Crimson Sea Dragon Broadside"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do 15000 set damage to a single enemy, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Critical Rejection"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Recover HP equal to 10x the user's RCV.Reduce all binds by 3 rounds.",
+        "max_cooldown": 20,
+        "name": "Cure"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Deal 25000 Dark type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 9,
+        "name": "Curse Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Dark type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Curse Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 rounds, counter all damage with a Dark type attack of 3x damage taken. Affected by enemy element and defense. Also, all Wood Orbs become Dark Orbs.",
+        "max_cooldown": 20,
+        "name": "Curse of the Darkness"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 rounds, counter all damage with a Fire type attack of 3x damage taken. Affected by enemy element and defense. Also, all Wood Orbs become Fire Orbs.",
+        "max_cooldown": 20,
+        "name": "Curse of the Flame"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 rounds, counter all damage with a Water type attack of 3x damage taken. Affected by enemy element and defense. Also, all Fire Orbs become Water Orbs.",
+        "max_cooldown": 20,
+        "name": "Curse of the Ice"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 rounds, counter all damage with a Light type attack of 3x damage taken. Affected by enemy element and defense. Also, all Water Orbs become Light Orbs.",
+        "max_cooldown": 20,
+        "name": "Curse of the Lightning"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 5 rounds, counter all damage with a Wood type attack of 3x damage taken. Affected by enemy element and defense. Also, all Fire Orbs become Wood Orbs.",
+        "max_cooldown": 20,
+        "name": "Curse of the Tree"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 18,
+        "name": "Dance of the Great Tengu"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 1000 Dark type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Dark Ball"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Do damage to all enemies equal to 20% of their current HP, ignoring element and defense.",
+        "max_cooldown": 22,
+        "name": "Dark Blaster"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Dark type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Dark Breath"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Matched Dark Orbs are 1.5x stronger for 3 turns.",
+        "max_cooldown": 17,
+        "name": "Dark Enhancement"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Dark type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Dark Gift"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Light Orbs become Dark Orbs. All Heart Orbs become Light Orbs.",
+        "max_cooldown": 13,
+        "name": "Dark&Light Orbs Change"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Light Orbs become Dark Orbs.",
+        "max_cooldown": 9,
+        "name": "Dark Orb Change"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Dark type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.",
+        "max_cooldown": 20,
+        "name": "Dark Seed Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 35000 Dark type damage to Light type enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Dark Strike"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Dark and Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark and Water type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Deadly Drive"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Wood and Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood and Dark type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Deadrise"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all damage is reduced by 50%.",
+        "max_cooldown": 20,
+        "name": "Defensive Stance"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal Dark type damage equal to 50x user's ATK to all enemies. Affected by enemy element and defense. Poison all enemies. Poisoned enemies lose HP equal to 10x\u00a0the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Destroying Lance, Gungnir"
+    },
+    {
+        "min_cooldown": 17,
+        "effect": "For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 21,
+        "name": "Devastating Wink!"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Devil type monsters are 3x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Devilish Enhancement"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Deal Dark type damage equal to 50x user's ATK to a single enemy and heals for 15% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 17,
+        "name": "Diabolic Lance, Gungnir"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Fire and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Divine Wind of Creation Flame"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Dark Orbs. All Light Orbs become Dark Orbs.",
+        "max_cooldown": 16,
+        "name": "Double Attack Stance-Dk"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Fire Orbs. All Water Orbs become Fire Orbs.",
+        "max_cooldown": 16,
+        "name": "Double Attack Stance-Fr"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Light Orbs. All Dark Orbs become Light Orbs.",
+        "max_cooldown": 16,
+        "name": "Double Attack Stance-Lt"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Wood Orbs. All Fire Orbs become Wood Orbs.",
+        "max_cooldown": 16,
+        "name": "Double Attack Stance-Wd"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Heart Orbs become Water Orbs. All Wood Orbs become Water Orbs.",
+        "max_cooldown": 16,
+        "name": "Double Attack Stance-Wt"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Fire Orbs become Heart Orbs. All Light Orbs become Heart Orbs.",
+        "max_cooldown": 14,
+        "name": "Double Dark Guard"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Wood Orbs become Heart Orbs. All Light Orbs become Heart Orbs.",
+        "max_cooldown": 14,
+        "name": "Double Fire Guard"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Wood Orbs become Heart Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 14,
+        "name": "Double Light Guard"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Fire Orbs become Heart Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 14,
+        "name": "Double Water Guard"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Water Orbs become Heart Orbs. All Light Orbs become Heart Orbs.",
+        "max_cooldown": 14,
+        "name": "Double Wood Guard"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "All Orbs become Fire\/Dark Orbs.",
+        "max_cooldown": 20,
+        "name": "Draco Summoning Circle-Fr & Dk"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "All Orbs become Wood\/Dark Orbs.",
+        "max_cooldown": 20,
+        "name": "Draco Summoning Circle-Wd & Dk"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "All Orbs become Water\/Dark Orbs.",
+        "max_cooldown": 20,
+        "name": "Draco Summoning Circle-Wt & Dk"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Dragon type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Draggie Enhance"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Attacks from Dragon type monsters are 2.5x stronger for 1 turn.",
+        "max_cooldown": 21,
+        "name": "Dragon Enhancement"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Matched Heart Orbs are 2x stronger for 4 turns.",
+        "max_cooldown": 18,
+        "name": "Dragon Heart Sutra"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Dark type damage equal to 7x user's ATK to a single enemy and heals for 100% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Dragon Strength Spellflame"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.",
+        "max_cooldown": 10,
+        "name": "Droidance"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 3000 Wood type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Earth Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Wood type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Earth Breath"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Matched Wood Orbs are 1.5x stronger for 3 turns.",
+        "max_cooldown": 17,
+        "name": "Earth Enhancement"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Water damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Earth Field"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Orbs become Water\/Wood\/Dark Orbs.",
+        "max_cooldown": 14,
+        "name": "Eastern Seven-Star Formation"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 30%. Also, deal Dark type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "Ebony Sea Dragon Broadside"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 1 turn, all Dark damage is nullified.",
+        "max_cooldown": 15,
+        "name": "Egg!"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Delay all enemies by 2 turns.",
+        "max_cooldown": 14,
+        "name": "Electric Impact"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Matched Water Orbs are 1.5x stronger for 1 turn. Also, Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Ell-Heal"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Dark Orbs become Fire Orbs. All Heart Orbs become Fire Orbs.",
+        "max_cooldown": 16,
+        "name": "Emergency Launch!"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 15x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Energy Bomb"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Enhanced Dark Orbs"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Enhanced Fire Orbs"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Enhanced Light Orbs"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Enhanced Water Orbs"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Enhanced Wood Orbs"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all damage is reduced by 75%.",
+        "max_cooldown": 20,
+        "name": "Evasion"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 150000 Dark type damage to Light type enemies. Affected by enemy element and defense. Also, all Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%.",
+        "max_cooldown": 20,
+        "name": "Evil Nova"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Dark type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 19,
+        "name": "Evil Wind"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "ExFreeze Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 3000 Fire type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Fire Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Fire type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Fire Breath"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Water Orbs become Fire Orbs.",
+        "max_cooldown": 9,
+        "name": "Fire Orb Change"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Fire Orbs become Water Orbs. All Heart Orbs become Fire Orbs.",
+        "max_cooldown": 13,
+        "name": "Fire&Water Orbs Change"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Wood Orbs become Fire Orbs. All Heart Orbs become Wood Orbs.",
+        "max_cooldown": 13,
+        "name": "Fire&Wood Orbs Change"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Fire type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Flame Breath"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 75000 Fire type damage to Wood type enemies. Affected by enemy element and defense. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Flame Burst"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Matched Fire Orbs are 1.5x stronger for 3 turns.",
+        "max_cooldown": 17,
+        "name": "Flame Enhancement"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Flame Gift"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Deal Fire type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Flame of Olympus"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Fire type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.",
+        "max_cooldown": 20,
+        "name": "Flame Seed Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 35000 Fire type damage to Wood type enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Flame Strike"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Physical type monsters are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 19,
+        "name": "Flame Wind"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 1000 Light type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Flash Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Light type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Flash Breath"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Dark damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Flashing Field"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Delay all enemies by 5 turns.",
+        "max_cooldown": 25,
+        "name": "Force"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Dark damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Forsake"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 75000 Water type damage to Fire type enemies. Affected by enemy element and defense. Also, all Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.",
+        "max_cooldown": 15,
+        "name": "Freeze Burst"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 35000 Water type damage to Fire type enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Freeze Strike"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 16,
+        "name": "Freezing Shift"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Dark Orbs become Water Orbs. All Wood Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Fresh!"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 20000 Wood type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs become Wood Orbs.",
+        "max_cooldown": 15,
+        "name": "Gaia Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Matched Wood Orbs are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Gaia Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 19,
+        "name": "Gaia Wind"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 30%. Also, deal Light type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "Gilded Sea Dragon Broadside"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Wood and Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood and Light type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Glitter of Aegis"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Matched Water Orbs are 1.3x stronger for 4 turns. Also, deal Water type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "God Blizzard Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Matched Wood Orbs are 1.3x stronger for 4 turns. Also, deal Wood type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "God Gaia Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Matched Dark Orbs are 1.3x stronger for 4 turns. Also, deal Dark type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "God Hell Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Matched Light Orbs are 1.3x stronger for 4 turns. Also, deal Light type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "God Holy Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Matched Fire Orbs are 1.3x stronger for 4 turns. Also, deal Fire type damage equal to 40x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "God Magma Breath"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Light Orbs become Heart Orbs. Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Grape Shower"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage to all enemies equal to 15% of their current HP, ignoring element and defense.",
+        "max_cooldown": 25,
+        "name": "Gravity"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Do damage to all enemies equal to 35% of their current HP, ignoring element and defense.",
+        "max_cooldown": 35,
+        "name": "Gravity Breath"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal 30000 Dark type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 20,
+        "name": "Gravity Cannon"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Water Orbs become Wood Orbs. All Fire Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Green Star Blade"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Balanced type monsters are 1.5x stronger for 2 turns.",
+        "max_cooldown": 17,
+        "name": "GROOVE COASTER"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Deals Dark damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Grudge Strike"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "For 5 turns, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 15,
+        "name": "Guard Break"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Light Orbs become Heart Orbs.",
+        "max_cooldown": 11,
+        "name": "Guard Stance - Dark"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Wood Orbs become Heart Orbs.",
+        "max_cooldown": 11,
+        "name": "Guard Stance - Fire"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 11,
+        "name": "Guard Stance - Light"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Fire Orbs become Heart Orbs.",
+        "max_cooldown": 11,
+        "name": "Guard Stance - Water"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Water Orbs become Heart Orbs.",
+        "max_cooldown": 11,
+        "name": "Guard Stance - Wood"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Deal Light type damage equal to 50x user's ATK to a single enemy and heals for 10% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 17,
+        "name": "Gungnir"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Wood type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Hard Mistral Breath"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Recover HP equal to 5x the user's RCV.Reduce all binds by 1 rounds.",
+        "max_cooldown": 10,
+        "name": "Heal"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "For 1 turn, all Dark damage is nullified. Also, recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Heal Barrier"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "unknownCategory 50,117",
+        "max_cooldown": 11,
+        "name": "Healing Cheer"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Recover 2500 HP.",
+        "max_cooldown": 10,
+        "name": "Healing Dance"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Recover 3000 HP.",
+        "max_cooldown": 10,
+        "name": "Healing Shout"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 1000 Fire type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Heat Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Fire type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Heat Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 20000 Dark type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs become Dark Orbs.",
+        "max_cooldown": 15,
+        "name": "Hell Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Dragon type monsters are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Hellfire Breath"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all damage is reduced by 75%.",
+        "max_cooldown": 20,
+        "name": "Heroic Dragon Guard"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 20000 Light type damage to all enemies. Affected by enemy element and defense. Also, all Water Orbs become Light Orbs.",
+        "max_cooldown": 15,
+        "name": "Holy Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Matched Light Orbs are 1.3x stronger for 2 turns. Also, deal Light type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Holy Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Light type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Holy Gift"
+    },
+    {
+        "min_cooldown": 14,
+        "effect": "Delay all enemies by 2 turns. Also, Attacks from Healer type monsters are 2x stronger for 2 turns.",
+        "max_cooldown": 18,
+        "name": "Honest Insight"
+    },
+    {
+        "min_cooldown": 1,
+        "effect": "Deal 500 Wood type damage to all enemies. Affected by enemy element and defense. Also, recover 500 HP.",
+        "max_cooldown": 6,
+        "name": "Hot Spring of Kusatsu"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Attacks from God type monsters are 1.5x stronger for 1 turn. Poison all enemies. Poisoned enemies lose HP equal to 10x\u00a0the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Hydra's Poison"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 3000 Water type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Ice Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Water type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Ice Breath"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Water type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Ice Gift"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Attacker type monsters are 1.3x stronger for 2 turns. Also, deal Water type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 19,
+        "name": "Ice Wind"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Wood Orbs become Water Orbs. All Heart Orbs become Dark Orbs.",
+        "max_cooldown": 13,
+        "name": "I mustn't run away"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Matched Dark Orbs are 1.3x stronger for 2 turns. Also, deal Dark type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Inferno Breath"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Delay all enemies by 1 turn.",
+        "max_cooldown": 11,
+        "name": "Intimidation"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 5 turns, all damage is reduced by 50%.",
+        "max_cooldown": 20,
+        "name": "Iron Wall Stance"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 2 turns, all damage is reduced by 50%.",
+        "max_cooldown": 15,
+        "name": "I will protect you"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Recover 4000 HP.",
+        "max_cooldown": 10,
+        "name": "Japan's Top Four Udon"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 rounds, counter all damage with a Light type attack of 3x damage taken. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Judgement in Holy Night"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Deal random Water type damage equal to 1-50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Jump"
+    },
+    {
+        "min_cooldown": 16,
+        "effect": "All Orbs become Wood Orbs.",
+        "max_cooldown": 30,
+        "name": "Jupiter Genesis"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Do damage equal to 2x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Kerokero Attack!"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Use a random skill from a pool of potential Active Skills. Possible skills are",
+        "max_cooldown": 15,
+        "name": "Killing Joke"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Dark and Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Dark and Fire type damage by 6% (clearing all 30 will raise by 180%, for 280% total damage.)",
+        "max_cooldown": 15,
+        "name": "Kiss of Demonic Fire Queen"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "All Heart Orbs become Wood Orbs. All Dark Orbs become Wood Orbs. Also, Recover 3000 HP.",
+        "max_cooldown": 15,
+        "name": "Leading a Comeback"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Dark Orbs become Heart Orbs. Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Lemon Shower"
+    },
+    {
+        "min_cooldown": 17,
+        "effect": "For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 22,
+        "name": "Libra"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "For 1 turn, all damage is reduced by 35%.  Also, recover 4000 HP.",
+        "max_cooldown": 19,
+        "name": "Lifestream"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Dark Orbs become Light Orbs. All Heart Orbs become Dark Orbs.",
+        "max_cooldown": 13,
+        "name": "Light&Dark Orbs Change"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Matched Light Orbs are 1.5x stronger for 3 turns.",
+        "max_cooldown": 17,
+        "name": "Light Enhancement"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Physical type monsters are 1.3x stronger for 2 turns. Also, deal Light type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 19,
+        "name": "Lightning Wind"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Recover 500 HP.",
+        "max_cooldown": 10,
+        "name": "Light of Healing"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "Recover 2000 HP.",
+        "max_cooldown": 10,
+        "name": "Light of Mighty Healing"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Dark Orbs become Light Orbs.",
+        "max_cooldown": 9,
+        "name": "Light Orb Change"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal random Dark type damage equal to 10-50x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Lucky(?) Ribbon"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Do damage equal to 20x user's ATK to a single enemy and recover 50% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "Magic-Draining Light"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 20000 Fire type damage to all enemies. Affected by enemy element and defense. Also, all Dark Orbs become Fire Orbs.",
+        "max_cooldown": 15,
+        "name": "Magma Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Matched Fire Orbs are 1.3x stronger for 2 turns. Also, deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 30,
+        "name": "Magma Breath"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Delay all enemies by 1 turn. Also, Deal Fire type damage equal to 50x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 22,
+        "name": "Mars Daylight"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do 9999 set damage to all enemies, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Mega Flare"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. All Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 15,
+        "name": "Melody Wink"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Water Orbs become Heart Orbs. Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Melon Shower"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Delay all enemies by 3 turns.",
+        "max_cooldown": 15,
+        "name": "Menace"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "For 1 turn, all damage is reduced by 35%.",
+        "max_cooldown": 11,
+        "name": "Merciful Protection"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Light Orbs become Fire Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Miracle of Fire"
+    },
+    {
+        "min_cooldown": 16,
+        "effect": "All Orbs become Heart Orbs.",
+        "max_cooldown": 23,
+        "name": "Miracle of Healing"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Light Orbs become Water Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Miracle of Ice"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Light Orbs become Wood Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Miracle of Wood"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Physical type monsters are 3x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Muscle Enhancement"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage equal to 20x user's ATK to a single enemy and recover 10% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Nightmare Sword"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal random Fire type damage equal to 20-100x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Nine Lives"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Dark Orbs become Water Orbs.",
+        "max_cooldown": 9,
+        "name": "Ninja Art Dk to Wt"
+    },
+    {
+        "min_cooldown": 16,
+        "effect": "All Orbs become Fire Orbs.",
+        "max_cooldown": 30,
+        "name": "Ninja Art Fireworks"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Fire Orbs become Dark Orbs.",
+        "max_cooldown": 9,
+        "name": "Ninja Art Fr to Dk"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Light Orbs become Fire Orbs.",
+        "max_cooldown": 9,
+        "name": "Ninja Art Lt to Fr"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage equal to 20x user's ATK to a single enemy and recover 5% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Ninja Art Shadow Tag"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Wood Orbs become Light Orbs.",
+        "max_cooldown": 9,
+        "name": "Ninja Art Wd to Lt"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Water Orbs become Wood Orbs.",
+        "max_cooldown": 9,
+        "name": "Ninja Art Wt to Wd"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Orbs become Wood\/Light\/Dark Orbs.",
+        "max_cooldown": 14,
+        "name": "Northern Seven-Star Formation"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.",
+        "max_cooldown": 12,
+        "name": "Orb Refresh"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Attacks from God type monsters are 1.5x stronger for 4 turns. Also, HP becomes 1, and deal Wood type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 25,
+        "name": "Overcoming Hardship"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Attacks from Healer type monsters are 2x stronger for 2 turns. Also, for 2 turns, all damage is reduced by 35%.",
+        "max_cooldown": 25,
+        "name": "Performance of Judgement"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Deal 25000 Wood type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 9,
+        "name": "Plant Ball"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "Plant Gift"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Deal 25000 Light type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 9,
+        "name": "Plasma Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Light type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Plasma Breath"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal 30000 Light type damage to all enemies. Affected by enemy element and defense. Also, all Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 20,
+        "name": "Plasma Cannon"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Poison all enemies. Poisoned enemies lose HP equal to 2x\u00a0the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 20,
+        "name": "Poison Death Mist"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal Water type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Poison all enemies. Poisoned enemies lose HP equal to 8x\u00a0the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 25,
+        "name": "Poison Fang of Temptation"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Attacks from Devil type monsters are 1.5x stronger for 1 turn. Poison all enemies. Poisoned enemies lose HP equal to the user's ATK each turn, ignoring element and defense.",
+        "max_cooldown": 15,
+        "name": "Poison Mist"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Matched Light Orbs are 2x stronger for 1 turn.",
+        "max_cooldown": 15,
+        "name": "Pompurin Dance"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 6,
+        "name": "Prehistoric Wisdom"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Delay all enemies by 1 turn.",
+        "max_cooldown": 11,
+        "name": "Princess Smile"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "For 1 turn, all damage is reduced by 75%.",
+        "max_cooldown": 11,
+        "name": "Protection of Divine Wisdom"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "For 1 turn, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, do damage equal to 10x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Quick Bomb"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Recover HP equal to 6x the user's RCV.Reduce all binds by 2 rounds.",
+        "max_cooldown": 11,
+        "name": "Quick Cure"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "Recover HP equal to 3x the user's RCV.Reduce all binds by 2 rounds.",
+        "max_cooldown": 8,
+        "name": "Quick Heal"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Freely move orbs for 7 seconds without triggering matches.",
+        "max_cooldown": 12,
+        "name": "Rainbow Magnet"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Recover 300 HP.",
+        "max_cooldown": 10,
+        "name": "Ray of Healing"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Healer type monsters are 3x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "Recovery Enhancement"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Fire Orbs become Water Orbs. All Heart Orbs become Wood Orbs.",
+        "max_cooldown": 11,
+        "name": "Ritual of the Mountain and Sea"
+    },
+    {
+        "min_cooldown": 14,
+        "effect": "Delay all enemies by 1 turn. All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 23,
+        "name": "Roar of the Time-Sea"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Wood type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Rock Breath"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 50%.",
+        "max_cooldown": 12,
+        "name": "Rock Shield"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 35000 Wood type damage to Water type enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Rock Strike"
+    },
+    {
+        "min_cooldown": 22,
+        "effect": "For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 22,
+        "name": "Search"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Do 300 set damage to a single enemy, ignoring element and defense.",
+        "max_cooldown": 15,
+        "name": "Secret Bonus"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Wood Orbs become Dark Orbs. All Light Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Secret Box"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Dark Orbs become Light Orbs. All Fire Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Selfless Devotion"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Light damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Shadow Field"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "For 5 turns, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round.",
+        "max_cooldown": 15,
+        "name": "Shield Break"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Light type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.",
+        "max_cooldown": 20,
+        "name": "Shine Seed Breath"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 35%. Also, All Light Orbs currently on the board will gain a +. Each matched + orb will raise the final Light type damage by 6%.",
+        "max_cooldown": 20,
+        "name": "Shining Death Queen's Whisper"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "All Light Orbs become Wood Orbs. All Heart Orbs become Light Orbs.",
+        "max_cooldown": 15,
+        "name": "Shinra Bansho"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Recover all HP.Reduce all binds by 9999 rounds.",
+        "max_cooldown": 20,
+        "name": "Shower of Healing"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal random Dark type damage equal to 1-50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Shuffle Shot"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 12,
+        "name": "Sidewinder"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Delay all enemies by 2 turns.",
+        "max_cooldown": 14,
+        "name": "Slow"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Fire Orbs become Wood Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Smiling Palm"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Deals Fire damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Smite of Rage"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Fire Orbs become Heart Orbs. All Water Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "Snack Time!"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Do 7777 set damage to all enemies, ignoring element and defense.",
+        "max_cooldown": 14,
+        "name": "Solar Lazer"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "All Heart Orbs become Fire Orbs. Also, Recover 3000 HP.",
+        "max_cooldown": 12,
+        "name": "Solid Fortitude"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Orbs become Fire\/Wood\/Light Orbs.",
+        "max_cooldown": 14,
+        "name": "Southern Seven-Star Formation"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "Reshuffle the entire board. Any matched orbs after the refresh will clear immediately. If any clears occur, all active skills' cooldowns will decrease by 1, but enemies won't attack, status effect timers won't count down and poison won't trigger.",
+        "max_cooldown": 10,
+        "name": "Spanking!"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "Deal 25000 Water type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 9,
+        "name": "Splash Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Water type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Splash Breath"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All attacks become multi-target for 3 turns.",
+        "max_cooldown": 13,
+        "name": "Spread Cats"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Wood Orbs become Heart Orbs. Recover 3000 HP.",
+        "max_cooldown": 13,
+        "name": "Strawberry Shower"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Deal Light type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Sweet Shoot"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Water Orbs become Light Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "The Compliant Rod"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "For 3 turns, all damage is reduced by 35%.",
+        "max_cooldown": 13,
+        "name": "The Feathered Garment of Yomi"
+    },
+    {
+        "min_cooldown": 25,
+        "effect": "HP becomes 1, and deal 300000 Dark type damage to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 35,
+        "name": "The Morning Star"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Do damage equal to 8x user's ATK to a single enemy and recover 50% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 17,
+        "name": "The promised time has come"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Fire Orbs become Water Orbs. All Light Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "The Sacred Blue Chains"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 16,
+        "name": "The Switch"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Wood Orbs become Fire Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 13,
+        "name": "The Sword Kusanagi"
+    },
+    {
+        "min_cooldown": 17,
+        "effect": "For 1 turn, defense of all enemies is reduced to 0%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, all Fire Orbs currently on the board will gain a +. Each matched + orb will raise the final Fire type damage by 6%.",
+        "max_cooldown": 22,
+        "name": "Third Eye"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 3000 Light type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 25,
+        "name": "Thunder Ball"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Light type damage equal to 5x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "Thunder Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal 35000 Light type damage to Dark type enemies. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "Thunder Strike"
+    },
+    {
+        "min_cooldown": 25,
+        "effect": "HP becomes 1, and deal 300000 Water type damage to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 35,
+        "name": "Time has come..."
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Freely move orbs for 6 seconds without triggering matches.",
+        "max_cooldown": 15,
+        "name": "Time's Coiled Spring"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Deal 30000 Wood type damage to all enemies. Affected by enemy element and defense. Also, all Wood Orbs currently on the board will gain a +. Each matched + orb will raise the final Wood type damage by 6%. Clearing all 30 will raise by 180%, for 280% total damage.",
+        "max_cooldown": 20,
+        "name": "Tornado Cannon"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "Do damage to all enemies equal to 30% of their current HP, ignoring element and defense.",
+        "max_cooldown": 30,
+        "name": "Ultra Gravity"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Devil type monsters are 2.5x stronger for 1 turn. Also, HP becomes 1, and deal Dark type damage equal to 10x user's ATK to all enemies. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 16,
+        "name": "Unparalleled Destructive Strike"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "All Heart Orbs become Wood Orbs. Also, Recover 3000 HP.",
+        "max_cooldown": 12,
+        "name": "Unwavering Faith"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "HP becomes 1, and deal Water type damage equal to 200x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 30,
+        "name": "Vast Dawn"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "For 1 turn, all damage is reduced by 30%. Also, deal Wood type damage equal to 20x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 18,
+        "name": "Verdant Sea Dragon Broadside"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Delay all enemies by 1 turn.",
+        "max_cooldown": 11,
+        "name": "Virtuous Foundation"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Matched Water Orbs are 1.5x stronger for 3 turns.",
+        "max_cooldown": 17,
+        "name": "Water Enhancement"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Wood Orbs become Water Orbs.",
+        "max_cooldown": 9,
+        "name": "Water Orb Change"
+    },
+    {
+        "min_cooldown": 15,
+        "effect": "For 3 turns, all Fire damage is nullified.",
+        "max_cooldown": 20,
+        "name": "Water Rapids Field"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Water Orbs become Wood Orbs. All Heart Orbs become Water Orbs.",
+        "max_cooldown": 13,
+        "name": "Water&Wood Orbs Change"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "All Orbs become Fire\/Water\/Dark Orbs.",
+        "max_cooldown": 14,
+        "name": "Western Seven-Star Formation"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Freely move orbs for 5 seconds without triggering matches.",
+        "max_cooldown": 15,
+        "name": "What are you, stupid?"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal 1000 Wood type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Wind Ball"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Deal Wood type damage equal to 3x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 10,
+        "name": "Wind Breath"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Deal Wood type damage equal to 20x user's ATK to all enemies. Also, recover 1000 HP.",
+        "max_cooldown": 20,
+        "name": "Wind Seed Breath"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "This monster becomes the Team Leader. If it uses this skill again, it will change back. No effect when this monster is the original Team Leader.",
+        "max_cooldown": 23,
+        "name": "Wisdom of the Ancients"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "All Fire Orbs become Wood Orbs.",
+        "max_cooldown": 9,
+        "name": "Wood Orb Change"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Freely move orbs for 5 seconds without triggering matches.",
+        "max_cooldown": 15,
+        "name": "World"
+    },
+    {
+        "min_cooldown": 25,
+        "effect": "HP becomes 1, and deal Dark type damage equal to 300x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 35,
+        "name": "World's End"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Do damage to all enemies equal to 35% of their current HP, ignoring element and defense.",
+        "max_cooldown": 35,
+        "name": "Wrath of God"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "For 1 turn, defense of all enemies is reduced to 75%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, deal Fire type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 8,
+        "name": "\u4e00\u63e1\u308a\u306e\u706b\u85ac"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Fire and Dark type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 17,
+        "name": "\u4e00\u6483\u96e2\u8131\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. Also, All Dark Orbs become Wood Orbs.",
+        "max_cooldown": 20,
+        "name": "\u4e07\u592b\u4e0d\u5f53\u306e\u4e00\u559d"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Recover all HP.",
+        "max_cooldown": 20,
+        "name": "\u4ed9\u8c46"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Attacks from Healer type monsters are 1.5x stronger for 2 turns.",
+        "max_cooldown": 18,
+        "name": "\u50d5\u3001\u3061\u3087\u3063\u3068\u5f37\u3044\u304b\u3082"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Light and Dark type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 20,
+        "name": "\u30d2\u30a8\u30ed\u30b0\u30ea\u30d5\u306e\u523b\u5370"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Physical type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "\u529b\u3092\u305f\u3081\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 5,
+        "effect": "Recover 3000 HP.Reduce all binds by 1 rounds.",
+        "max_cooldown": 9,
+        "name": "\u53cb\u3068\u306e\u7d04\u675f"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Attacks from Balanced type monsters are 1.3x stronger for 5 turns.",
+        "max_cooldown": 12,
+        "name": "\u5805\u5b9f\u306b\u3044\u304f\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "For 1 turn, defense of all enemies is reduced to 50%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, deal Light type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "\u58f1\u4e43\u638c"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "For 1 turn, all damage is reduced by 35%. Also, Attacks from Dragon type monsters are 1.5x stronger for 1 turn.",
+        "max_cooldown": 18,
+        "name": "\u5909\u8eab"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Water Orbs become Heart Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u5b88\u8b77\u9b54\u6cd5\u30fb\u5149"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Fire Orbs become Heart Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u5b88\u8b77\u9b54\u6cd5\u30fb\u6728"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Wood Orbs become Heart Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u5b88\u8b77\u9b54\u6cd5\u30fb\u6c34"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Water Orbs become Heart Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u5b88\u8b77\u9b54\u6cd5\u30fb\u706b"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Wood Orbs become Heart Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u5b88\u8b77\u9b54\u6cd5\u30fb\u95c7"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Attacks from Dragon type monsters are 2x stronger for 2 turns. Also,  HP becomes 1, and deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 13,
+        "name": "\u5eec\u5c71\u6607\u9f8d\u8987"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Do damage equal to 50x user's ATK to a single enemy. Also, All Heart Orbs become Light Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "\u30da\u30ac\u30b5\u30b9\u5f57\u661f\u62f3"
+    },
+    {
+        "min_cooldown": 19,
+        "effect": "Delay all enemies by 4 turns.",
+        "max_cooldown": 23,
+        "name": "\u5f8b\u3059\u308b\u5c0f\u6307\u306e\u9396"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Do damage equal to 80x user's ATK to a single enemy. Also, All Wood Orbs become Water Orbs. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 14,
+        "name": "\u5fc5\u6bba\u5263"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Healer type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "\u5fdc\u63f4\u3059\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Deals Dark damage to all enemies based on HP%. 10x user's ATK at 100% HP and 150x user's ATK at 1HP. Affected by enemy element and defense.",
+        "max_cooldown": 11,
+        "name": "\u201c\u6028\u201d"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "For 1 turn, defense of all enemies is reduced to 65%. If all enemies are defeated while this skill is active, its effect will carry to the next round. Also, For 1 turn, all damage is reduced by 35%.",
+        "max_cooldown": 20,
+        "name": "\u6211\u30ac\u529b\u30f2\u3001\u884c\u4f7f\u30b9\u30eb"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. Also, deal Wood type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "\u30b8\u30e3\u30b8\u30e3\u30f3\u62f3\u30fb\u30b0\u30fc"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "Deal Light type damage equal to 100x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 20,
+        "name": "\u30b9\u30a4\u30fc\u30c4\u30b7\u30e5\u30fc\u30c8\u6539"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Drop rate of Wood Orbs is increased by  10% for 3 turns.",
+        "max_cooldown": 15,
+        "name": "\u6728\u306e\u76ee\u899a\u3081"
+    },
+    {
+        "min_cooldown": 14,
+        "effect": "Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 50x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 28,
+        "name": "\u3069\u304a\u308c\u3001\u672c\u6c17\u3067\u3044\u304f\u304b"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Attacks from Dragon type monsters are 1.2x stronger for 5 turns.",
+        "max_cooldown": 12,
+        "name": "\u672c\u6c17\u3060\u3059\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Physical type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "\u6843\u8272\u5410\u606f"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. Also, do damage equal to 30x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "\u6c17\u5186\u65ac"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "HP becomes 1, and deal Wood type damage equal to 30x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1. Also, Delay all enemies by 2 turns.",
+        "max_cooldown": 13,
+        "name": "\u6c17\u529f\u7832"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Attacker type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "\u6c17\u5408\u3092\u5165\u308c\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Drop rate of Water Orbs is increased by  10% for 3 turns.",
+        "max_cooldown": 15,
+        "name": "\u6c34\u306e\u76ee\u899a\u3081"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Attacks from Dragon type monsters are 1.5x stronger for 1 turn. Also, Do damage equal to 100x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 16,
+        "name": "\u304b\u3081\u306f\u3081\u6ce2"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "For 2 turns, all Light damage is nullified. Also, do damage equal to 20x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "\u3069\u3069\u3093\u6ce2"
+    },
+    {
+        "min_cooldown": 7,
+        "effect": "Do damage equal to 30x user's ATK to a single enemy. Also, all attacks become multi-target for 2 turns. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 11,
+        "name": "\u30da\u30ac\u30b5\u30b9\u6d41\u661f\u62f3"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Drop rate of Fire Orbs is increased by  10% for 3 turns.",
+        "max_cooldown": 15,
+        "name": "\u706b\u306e\u76ee\u899a\u3081"
+    },
+    {
+        "min_cooldown": 999,
+        "effect": "Unknown - needs data update",
+        "max_cooldown": 999,
+        "name": "\u7121\u3057"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Attacks from God type monsters are 1.3x stronger for 1 turn. Also, deal Light type damage equal to 30x user's ATK to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 22,
+        "name": "\u738b\u306e\u4e00\u624b"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Randomly use one skill from below:",
+        "max_cooldown": 14,
+        "name": "\u76d7\u8cca\u306e\u6975\u610f"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from God type monsters are 1.5x stronger for 1 turn. Also,  HP becomes 1, and deal Dark type damage equal to 40x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 13,
+        "name": "\u795e\u5668\u306e\u4e00\u6483"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Attacks from Balanced type monsters are 2x stronger for 1 turn.",
+        "max_cooldown": 11,
+        "name": "\u7a81\u9032\u6e96\u5099\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Deal Fire type damage equal to 20x user's ATK to all enemies. Affected by enemy element and defense. Also, all attacks become multi-target for 2 turns.",
+        "max_cooldown": 13,
+        "name": "\u7e70\u6c17\u5f3e"
+    },
+    {
+        "min_cooldown": 20,
+        "effect": "HP becomes 1, and deal Wood type damage equal to 80x user's ATK to a single enemy. Affected by enemy element and defense. Note: This skill can only be activated when HP is higher than 1.",
+        "max_cooldown": 35,
+        "name": "\u81ea\u7206"
+    },
+    {
+        "min_cooldown": 19,
+        "effect": "For 1 turn, all damage is reduced by 100%.",
+        "max_cooldown": 24,
+        "name": "\u82e6\u96e3\u6253\u7834\u306e\u77e5\u6075"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Wood Orbs become Poison Orbs.",
+        "max_cooldown": 11,
+        "name": "\u30e2\u30eb\u30dc\u30eb\u83cc"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "Delay all enemies by 1 turn. Also, deal Dark type damage equal to 50x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 15,
+        "name": "\u843d\u96f7"
+    },
+    {
+        "min_cooldown": 11,
+        "effect": "For 1 turn, all damage is reduced by 25%.  Also, All Heart Orbs become Water Orbs. All Dark Orbs become Water Orbs.",
+        "max_cooldown": 15,
+        "name": "\u84bc\u8987\u738b\u306e\u63f4\u8b77"
+    },
+    {
+        "min_cooldown": 4,
+        "effect": "For 1 turn, all damage is reduced by 30%.",
+        "max_cooldown": 8,
+        "name": "\u8584\u3063\u307a\u3089\u306a\u5618"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Do damage equal to 100x user's ATK to a single enemy. Attack attribute is the same as the user's attribute and is affected by enemy element and defense. Also, All Water Orbs currently on the board will gain a +. Each matched + orb will raise the final Water type damage by 6%.",
+        "max_cooldown": 16,
+        "name": "\u8d85\u304b\u3081\u306f\u3081\u6ce2"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Water Orbs become Heart Orbs. Also, all attacks become multi-target for 1 turn.",
+        "max_cooldown": 16,
+        "name": "\u30b7\u30ea\u30a6\u30b9\u306e\u8f1d\u304d"
+    },
+    {
+        "min_cooldown": 10,
+        "effect": "Recover 832 HP.",
+        "max_cooldown": 10,
+        "name": "\u30d5\u30a1\u30df\u901aApp\u306e\u58f0\u63f4"
+    },
+    {
+        "min_cooldown": 12,
+        "effect": "Do 832 set damage to all enemies, ignoring element and defense.",
+        "max_cooldown": 12,
+        "name": "\u30d5\u30a1\u30df\u901aApp\u306e\u5927\u6fc0\u6012"
+    },
+    {
+        "min_cooldown": 3,
+        "effect": "Deal 832 Light type damage to all enemies. Affected by enemy element and defense.",
+        "max_cooldown": 3,
+        "name": "\u30d5\u30a1\u30df\u901aApp\u306e\u6012\u308a"
+    },
+    {
+        "min_cooldown": 13,
+        "effect": "Deal Wood type damage equal to 20x user's ATK to a single enemy and heals for 30% of damage done. Affected by enemy element and defense.",
+        "max_cooldown": 23,
+        "name": "\u98a8\u96f2\u306e\u795e\u5263"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "Do damage equal to 4.5x user's ATK to a single enemy and recover 100% of that damage as HP. Attack element is the same as user's element and is affected by enemy element and defense.",
+        "max_cooldown": 12,
+        "name": "\u9b54\u69cd\u3050\u3093\u3050\u306b\u30fc\u308b\u30cb\u30e3\uff01"
+    },
+    {
+        "min_cooldown": 18,
+        "effect": "Deal Dark type damage equal to 200x user's ATK to a single enemy. Affected by enemy element and defense.",
+        "max_cooldown": 22,
+        "name": "\u9b54\u8cab\u5149\u6bba\u7832"
+    },
+    {
+        "min_cooldown": 9,
+        "effect": "Do damage equal to 50x user's ATK to a single enemy. Also, recover 5000 HP. Attack attribute is the same as the user's attribute and is affected by enemy element and defense.",
+        "max_cooldown": 13,
+        "name": "\u9cf3\u7ffc\u5929\u7fd4"
+    },
+    {
+        "min_cooldown": 8,
+        "effect": "All Heart Orbs become Light Orbs. All Dark Orbs become Heart Orbs.",
+        "max_cooldown": 12,
+        "name": "\u9ec4\u91d1\u306e\u6756"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Heart Orbs become Light Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u9f8d\u6483\u614b\u52e2\u30fb\u5149"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Heart Orbs become Water Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u9f8d\u6483\u614b\u52e2\u30fb\u6c34"
+    },
+    {
+        "min_cooldown": 6,
+        "effect": "All Heart Orbs become Fire Orbs. Reduce all binds by 1 rounds.",
+        "max_cooldown": 11,
+        "name": "\u9f8d\u6483\u614b\u52e2\u30fb\u706b"
+    }
+]
