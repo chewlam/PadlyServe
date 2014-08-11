@@ -11,4 +11,8 @@ public class Application extends Controller {
         return ok(index.render("Your new application is ready."));
     }
 
+    public static Result untrail(String path) {
+        return movedPermanently("/" + path);
+    }
+
 }
